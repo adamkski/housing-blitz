@@ -1,0 +1,165 @@
+---
+title: "Cleanup craigslist scrape"
+author: "Adam Kowalczewski"
+date: "7/25/2020"
+output: html_document
+---
+
+Data scraped from craigslist needs to fit the template
+
+```{r}
+library(readxl)
+library(writexl)
+library(jsonlite)
+library(tidyverse)
+library(lubridate)
+library(here)
+conflicted::conflict_prefer("here", "here")
+conflicted::conflict_prefer("filter", "dplyr")
+
+ads <- stream_in(file(r"(C:\Users\kowal\Documents\projects\housing\housing-scrape_craigslist_2020-07-25.jl)")) %>% 
+  as_tibble %>% 
+  rowid_to_column("id") 
+
+template <- read_xlsx(here("docs/Housing Blitz Landlord and Unit Info Template.xlsx"), skip = 1, n_max = 0, col_types = c("text"))
+template %>% names %>% sort
+```
+
+Clean up attributes 
+
+```{r}
+ads[[1,'rental_attr']]
+ads[[2,'rental_attr']]
+
+attributes <- 
+  ads %>% 
+  select(id, rental_attr) %>% 
+  unnest(cols = c(rental_attr)) 
+
+add_bedbath <- 
+  attributes %>% 
+  filter(str_detect(rental_attr, "BR")) %>% 
+  mutate(`Rental Type` = str_extract(rental_attr, r"([0-9.]*(?=BR))"),
+         `Rental Type` = if_else(`Rental Type` == 0, "Bachelor", str_c(`Rental Type`, " Bedroom")),
+         `Bathroom` = str_extract(rental_attr, r"([0-9.]*(?=Ba))")) %>% 
+  select(-rental_attr)
+
+add_size <- 
+  attributes %>% 
+  filter(str_detect(rental_attr, "ft2")) %>% 
+  mutate(size_ft = str_extract(rental_attr, r"(\d*(?=ft2))")) %>% 
+  select(-rental_attr)
+
+add_availability <- 
+  attributes %>% 
+  filter(str_detect(rental_attr, "available")) %>% 
+  mutate(available_from = str_extract(rental_attr, r"((?<=available ).*)")) %>% 
+  select(-rental_attr)
+
+add_smoking <- 
+  attributes %>% 
+  filter(str_detect(rental_attr, "no smoking")) %>% 
+  mutate(Smoking = "No") %>% 
+  select(-rental_attr)
+
+add_building_type <- 
+  attributes %>% 
+  filter(rental_attr %in% c("apartment", "house", "duplex", "condo", "townhouse", "loft")) %>% 
+  rename(`Building Type` = rental_attr)
+
+add_laundry <- 
+  attributes %>% 
+  filter(rental_attr %in% c("w/d in unit", "laundry on site", "laundry in bldg", "no laundry on site", "w/d hookups")) %>% 
+  mutate(rental_attr = case_when(
+    rental_attr == "laundry in bldg" ~ "In-Building",
+    rental_attr %in% c("no laundry on site", "w/d hookups") ~ "None",
+    rental_attr %in% c("w/d in unit", "laundry on site") ~ "In-Suite",
+    TRUE ~ NA_character_)) %>% 
+  rename(`Laundry` = rental_attr)
+
+add_parking <- 
+  attributes %>% 
+  filter(rental_attr %in% c("attached garage", "off-street parking", "no parking", "street parking", "carport")) %>% 
+  mutate(rental_attr = if_else(rental_attr == "no parking", "None", rental_attr)) %>% 
+  rename(`Parking` = rental_attr)
+
+add_furnished <- 
+  attributes %>% 
+  filter(rental_attr == "furnished") %>% 
+  mutate(rental_attr = "Yes") %>% 
+  rename(`Furnishing` = rental_attr)
+
+add_pets <- 
+  attributes %>% 
+  filter(rental_attr %in% c("cats are OK - purrr", "dogs are OK - wooof")) %>% 
+  mutate(rental_attr = str_sub(rental_attr, 1, 4),
+         value = "Yes") %>% 
+  pivot_wider(id_cols = id, names_from = rental_attr, values_from = value, values_fill = "No")
+  
+add_accessible <- 
+  attributes %>% 
+  filter(rental_attr == "wheelchair accessible") %>% 
+  mutate(rental_attr = "Yes") %>% 
+  rename(`Wheelchair Access` = rental_attr)
+```
+
+
+```{r}
+# rest
+attributes %>%
+  filter(!str_detect(rental_attr, "BR"),
+         !str_detect(rental_attr, "ft2"),
+         !str_detect(rental_attr, "available"),
+         !str_detect(rental_attr, "smoking"),
+         !rental_attr %in% c("apartment", "house", "duplex", "condo", "townhouse", "loft"),
+         !rental_attr %in% c("w/d in unit", "laundry on site", "laundry in bldg", "no laundry on site", "w/d hookups"),
+         !rental_attr %in% c("attached garage", "off-street parking", "no parking", "street parking", "carport"),
+         rental_attr != "furnished",
+         !rental_attr %in% c("cats are OK - purrr", "dogs are OK - wooof"),
+         rental_attr != "wheelchair accessible") %>% 
+  count(rental_attr, sort = T) %>% 
+  View
+```
+
+```{r}
+ads_renamed <- 
+  ads %>% 
+  left_join(add_accessible, by = "id") %>% 
+  left_join(add_availability, by = "id") %>% 
+  left_join(add_bedbath, by = "id") %>% 
+  left_join(add_building_type, by = "id") %>% 
+  left_join(add_furnished, by = "id") %>% 
+  left_join(add_laundry, by = "id") %>% 
+  left_join(add_parking, by = "id") %>% 
+  left_join(add_pets, by = "id") %>% 
+  left_join(add_size, by = "id") %>% 
+  left_join(add_smoking, by = "id") %>% 
+  rename(`Building Location` = building_location,
+         `Rent $` = price) %>% 
+  replace_na(list(`Parking` = "None", 
+                  `Wheelchair Access` = "No",
+                  `Furnishing` = "No")) %>% 
+  select(-rental_attr, -id, -building_type) %>% 
+  mutate(neighbourhood = str_remove_all(neighbourhood, r"(\()"),
+         neighbourhood = str_remove_all(neighbourhood, r"(\))"),
+         Pets = if_else(!is.na(cats) | !is.na(dogs), "Yes", "No"))
+
+ads_renamed <- bind_rows(template, ads_renamed) 
+```
+
+```{r}
+ads_renamed %>% 
+  View
+```
+
+
+```{r}
+ads %>% 
+  mutate(rental_attr = str_c(rental_attr)) %>% 
+  write_csv(here("data/raw-housing-scrape_craigslist_2020-07-25.csv"))
+
+ads_renamed %>% 
+  select(-raw_description, everything(), raw_description) %>% 
+  write_xlsx(here("data/structured-housing-scrape_craigslist_2020-08-08.xlsx"))
+```
+

@@ -1,0 +1,42 @@
+# scrape admin
+ad = response.css('p.result-info')   
+link = 
+
+
+
+
+
+# Landlord information & Building Information ------------						
+Landlord Name
+Management
+Phone #
+Address
+Building Location
+Building Type
+Rental Type
+Rent $
+
+# Included in Rent? ------------	
+Hydro
+Heat
+Internet
+
+# Amenities	------------						
+Laundry
+Elevator
+Parking
+Balcony
+Storage
+Dishwasher
+Furnishing
+Bathroom
+Kitchen
+
+# Accessibility ------------
+Wheelchair Access
+Building Access
+Other Accessibility Features
+
+# Other	
+Smoking
+Pets

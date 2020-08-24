@@ -1,0 +1,180 @@
+---
+title: "Lining up everyone's data"
+author: "Adam Kowalczewski"
+date: "7/26/2020"
+output: html_document
+---
+
+We've had a bunch of scrapes, lets see how they line up and remove duplicates.
+
+```{r}
+library(readxl)
+library(writexl)
+library(tidymodels)
+library(tidyverse)
+library(lubridate)
+library(here)
+
+
+theme_set(theme_light())
+
+ads1 <- read_xlsx(here("data/structured-housing-scrape_craigslist_2020-08-08.xlsx")) %>% 
+  mutate(`Rent $` = `Rent $` %>% str_remove(r"(\$)") %>% parse_number,
+         Bathroom = Bathroom %>% as.numeric)
+# this seems to be the most recent of all from Amit
+ads2 <- read_csv(here("data/9th Aug_2020_Kijiji_Longterm_Advertisement_structured.csv")) %>% 
+  mutate(laundry = case_when(`Laundry (In Unit)` == "Yes" ~ "In-Suite",
+                             `Laundry (In Building)` == "Yes" ~ "In-Building",
+                             TRUE ~ "None")) %>% 
+  # drop any missing weblinks because there's no way to contact the landlord
+  filter(!is.na(url))
+```
+
+
+
+```{r}
+ads1 %>% 
+  names %>% 
+  writeClipboard()
+
+ads1 %>% 
+  count(Laundry)
+  
+ads2 %>% 
+  recipe() %>% 
+  step_zv(everything()) %>% 
+  prep %>% 
+  juice %>% 
+  str
+
+ads1 %>% 
+  count(Parking)
+ads2 %>% 
+  count(`Parking Included`)
+
+ads2_renamed <- 
+  ads2 %>% 
+  select(-X1, -adId) %>% 
+  rename(#Landlord Name
+         #Management
+         #Phone #
+         #Address
+         `Building Location` = address,
+         `Building Type` = `Unit Type`,
+         `Rental Type` = Bedrooms,
+         `Rent $` = rent,
+         Hydro = Hydro,
+         Heat = Heat,
+         Internet = Internet,
+         Laundry = laundry,
+         Elevator = `Elevator in Building`,
+         Parking = `Parking Included`,
+         Balcony = Balcony,
+         Storage = `Storage Space`,
+         Dishwasher = Dishwasher,
+         Furnishing = Furnished,
+         Bathroom = Bathrooms,
+         #Kitchen
+         `Wheelchair Access` = `Wheelchair accessible`,
+         #Building Access
+         #Other Accessibility Features
+         Smoking = `Smoking Permitted`,
+         Pets = `Pet Friendly`,
+         web_link = url,
+         #building_location_link
+         #date_posted
+         #neighbourhood
+         #available_from = 
+         #cats
+         #dogs
+         #size_ft
+         raw_description = description) %>% 
+  select(-`Laundry (In Unit)`, -`Laundry (In Building)`)
+
+ads <- bind_rows(ads1 %>% mutate(source = "craigslist"), 
+          ads2_renamed %>% mutate(source = "kijiji"))
+```
+
+
+```{r}
+ads %>% 
+  ggplot(aes(`Rent $`)) +
+  geom_histogram()
+```
+
+Extract emails
+```{r}
+ads %>% 
+  transmute(email = str_extract(raw_description, r"(\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b)")) %>%
+  filter(!is.na(email))
+
+ads %>% 
+  transmute() %>%
+  filter(!is.na(email))
+
+```
+
+
+```{r}
+ads_result <- 
+  ads %>% 
+  mutate(`Short Term Rental` = str_detect(web_link, "short-term-rental"),
+         `Rental Type` = case_when(`Rental Type` %in% c("1", "2", "3", "4") ~ str_c(`Rental Type`, " Bedroom"),
+                                   `Rental Type` %in% c("5 Bedroom", "5+", "6+ Bedroom") ~ "5+ Bedroom",
+                                   str_detect(`Rental Type`, "Bachelor") ~ "Bachelor",
+                                   TRUE ~ `Rental Type`)) %>% 
+  # drops homes for sale
+  filter(`Rent $` < 100000) %>% 
+  mutate(`Phone #` = str_extract(raw_description, r"(\d{3}.\d{3}.?\d{4})"),
+         email = str_extract(raw_description, r"((?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\]))"),
+         email = if_else(str_detect(email, "[:alpha:]"), email, NA_character_),
+         date_scraped = ymd(20200725))
+
+ads_result %>% 
+  filter(!is.na(email))
+
+ads_result %>% 
+  filter(!is.na(`Phone #`)) %>% 
+  pull(web_link) %>% 
+  writeClipboard()
+```
+
+
+```{r}
+ads_result %>% 
+  select(`Landlord Email` = email, everything()) %>% 
+  arrange(desc(source)) %>% 
+  write_xlsx(here("data/structured-housing-blitz-web-scrape_2020-08-08.xlsx"))
+```
+
+
+Some quick sanity checks
+```{r}
+ads_result %>% 
+  nrow
+
+ads_result %>% 
+  count(`Rental Type`) %>% 
+  ggplot(aes(`Rental Type`, n)) +
+  geom_col() +
+  coord_flip() +
+  labs(title = "Count of rental units by rental type",
+       y = "number of units")
+
+ads_result %>% 
+  ggplot(aes(`Rent $`)) +
+  geom_histogram() +
+  labs(title = "Typical monthly rental prices found")
+
+ads_result %>% 
+  count(!is.na(`Phone #`))
+
+
+ads_result %>% 
+  count(`Building Location`, `Rent $`, `Rental Type`, `Bathroom`, sort = T)
+
+ads_result %>% 
+  count(`Building Location`, `Rent $`, `Rental Type`, `Bathroom`, sort = T)
+```
+
+
