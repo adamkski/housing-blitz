@@ -1,0 +1,203 @@
+---
+title: "Preparing Air BnB data for blitz"
+author: "Adam Kowalczewski"
+date: "29/08/2020"
+output: html_document
+---
+
+Murray Cox has June 2020 data.  According to him there's been about a 10% drop in properties, so the existing data ought to be a great start.
+
+```{r}
+library(tidyverse)
+library(here)
+
+listings <- read_csv(here("data/airbnb_listings_2020-06.csv"))
+calendar <- read_csv(here("data/airbnb_calendar_2020-06.csv"))
+reviews <- read_csv(here("data/airbnb_reviews_2020-06.csv"))
+```
+
+```{r}
+str(listings, give.attr = F, list.len = 2000)
+
+attributes <- 
+  listings %>% 
+  select(id, amenities) %>% 
+  mutate(amenities = str_replace_all(amenities, r"([{|}])", "")) %>% 
+  separate_rows(amenities, sep = r"([\",])") %>% 
+  filter(amenities != "")
+
+attributes %>% 
+  mutate(amenities = factor(amenities),
+         amenities = fct_lump_min(amenities, 100)) %>% 
+  count(amenities) %>% 
+  mutate(amenities = fct_reorder(amenities, n)) %>% 
+  ggplot(aes(amenities, n)) + 
+  geom_col() + 
+  coord_flip()
+```
+
+```{r}
+add_laundry <- 
+  attributes %>% 
+  filter(amenities %in% c("Washer")) %>% 
+  mutate(amenities = case_when(
+    amenities == "Washer" ~ "In-Building",
+    TRUE ~ NA_character_)) %>% 
+  rename(`Laundry` = amenities) 
+
+add_parking <- 
+  attributes %>% 
+  filter(str_detect(amenities, "parking")) %>% 
+  mutate(amenities = case_when(amenities == "Free parking on premises" ~ "Private",
+                               amenities == "Free street parking" ~ "Street",
+                               amenities == "Paid parking off premises" ~ "None",
+                               amenities == "Paid parking on premises" ~ "None",
+                               TRUE ~ NA_character_)) %>% 
+  group_by(id) %>% 
+  summarise(amenities = toString(amenities)) %>% 
+  ungroup %>% 
+  rename(`Parking` = amenities)
+
+add_balcony <- 
+  attributes %>% 
+  filter(str_detect(amenities, "balcony")) %>% 
+  transmute(id = id, 
+            Balcony = "Yes")
+
+add_dishwasher <- 
+  attributes %>% 
+  filter(amenities == "Dishwasher") %>% 
+  transmute(id = id, 
+            Dishwasher = "Yes")
+
+add_kitchen <- 
+  attributes %>% 
+  filter(amenities == "Kitchen") %>% 
+  transmute(id = id, 
+            Kitchen = "Yes")
+
+add_long_term_stays <- 
+  attributes %>% 
+  filter(amenities == "Long term stays allowed") %>% 
+  transmute(id = id, 
+            `Long term stay allowed` = "Yes")
+  
+add_accessibility <- 
+  attributes %>% 
+  filter(amenities == "Wheelchair accessible") %>% 
+  transmute(id = id, 
+            `Wheelchair accessible` = "Yes")
+
+add_other_accessibility <- 
+  attributes %>% 
+  filter(amenities %in% c("Accessible-height bed", "Accessible-height toilet")) %>% 
+  group_by(id) %>% 
+  summarise(amenities = toString(amenities)) %>% 
+  ungroup %>% 
+  transmute(id = id,
+            `Other Accessibilty` = amenities)
+
+add_elevator <- 
+  attributes %>% 
+  filter(amenities == "Elevator") %>% 
+  transmute(id = id, 
+            Elevator = "Yes")
+
+add_smoking <- 
+  attributes %>% 
+  filter(amenities == "Smoking allowed") %>% 
+  transmute(id = id, 
+            `Smoking` = "Yes")
+
+add_pets <- 
+  attributes %>% 
+  filter(amenities == "Pets allowed") %>% 
+  transmute(id = id, 
+            Pets = "Yes")
+```
+
+```{r}
+attributes %>% 
+  mutate(amenities = factor(amenities),
+         amenities = fct_lump_min(amenities, 100)) %>% 
+  count(amenities) %>% 
+  mutate(amenities = fct_reorder(amenities, n)) %>% 
+  filter(!amenities %in% c("Washer", "Dryer")) %>% 
+  filter(!str_detect(amenities, "parking")) %>% 
+  filter(!str_detect(amenities, "balcony")) %>% 
+  filter(amenities != "Dishwasher") %>% 
+  filter(amenities != "Kitchen") %>% 
+  ggplot(aes(amenities, n)) + 
+  geom_col() + 
+  coord_flip()
+
+attributes %>% 
+  filter(str_detect(amenities, "ets")) %>% 
+  count(amenities, sort = T)
+```
+
+
+```{r}
+result <- 
+  listings %>% 
+  filter(room_type %in% c("Entire home/apt", "Hotel room")) %>% 
+  left_join(add_accessibility, by = "id") %>% 
+  left_join(add_balcony, by = "id") %>% 
+  left_join(add_dishwasher, by = "id") %>% 
+  left_join(add_elevator, by = "id") %>% 
+  left_join(add_kitchen, by = "id") %>% 
+  left_join(add_laundry, by = "id") %>% 
+  left_join(add_long_term_stays, by = "id") %>% 
+  left_join(add_other_accessibility, by = "id") %>% 
+  left_join(add_parking, by = "id") %>% 
+  left_join(add_pets, by = "id") %>% 
+  left_join(add_smoking, by = "id") %>% 
+  add_count(host_url, name = "host_listing_count") %>% 
+  select(`Landlord Name` = host_name,
+         #Management
+         #Phone #
+         #Address
+         `AirBnB Landlord URL` = host_url,
+         `AirBnB Landlord listing count` = host_listing_count,
+         `AirBnB Long term stay allowed` = `Long term stay allowed`,
+         `AirBnB Landlord listing type ` = room_type,
+         `Building Location` = neighbourhood_cleansed,
+         `Building Type` = property_type,
+         `Rental Type` = bedrooms,
+         `Rent $` = price,
+         # Hydro = Hydro,
+         # Heat = Heat,
+         # Internet = Internet,
+         Laundry = Laundry,
+         Elevator = Elevator,
+         Parking = Parking,
+         Balcony = Balcony,
+         # Storage = `Storage Space`,
+         Dishwasher = Dishwasher,
+         # Furnishing = Furnished,
+         Bathroom = bathrooms,
+         Kitchen = Kitchen,
+         `Wheelchair Access` = `Wheelchair accessible`,
+         #Building Access
+         `Other Accessibility Features` = `Other Accessibilty`,
+         Smoking = Smoking,
+         Pets = Pets,
+         web_link = listing_url,
+         raw_description = description,
+         date_scraped = last_scraped) 
+
+result %>% 
+  distinct(`Landlord Name`, `Landlord listing count`) %>% 
+  arrange(desc(`Landlord listing count`))
+
+result %>% 
+  filter(`Landlord Name` == "Mark") %>% 
+  View
+```
+
+
+```{r}
+result %>% 
+  write_csv(here("data/structured-airbnb-scrape_2020-06.csv"))
+```
+

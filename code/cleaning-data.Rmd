@@ -17,7 +17,7 @@ library(here)
 conflicted::conflict_prefer("here", "here")
 conflicted::conflict_prefer("filter", "dplyr")
 
-ads <- stream_in(file(r"(C:\Users\kowal\Documents\projects\housing\housing-scrape_craigslist_2020-07-25.jl)")) %>% 
+ads <- stream_in(file(here("scraper/housing-scrape_craigslist_2020-08-29.jl"))) %>% 
   as_tibble %>% 
   rowid_to_column("id") 
 
@@ -79,7 +79,7 @@ add_laundry <-
 
 add_parking <- 
   attributes %>% 
-  filter(rental_attr %in% c("attached garage", "off-street parking", "no parking", "street parking", "carport")) %>% 
+  filter(rental_attr %in% c("detached garage", "attached garage", "off-street parking", "no parking", "street parking", "carport")) %>% 
   mutate(rental_attr = if_else(rental_attr == "no parking", "None", rental_attr)) %>% 
   rename(`Parking` = rental_attr)
 
@@ -113,7 +113,7 @@ attributes %>%
          !str_detect(rental_attr, "smoking"),
          !rental_attr %in% c("apartment", "house", "duplex", "condo", "townhouse", "loft"),
          !rental_attr %in% c("w/d in unit", "laundry on site", "laundry in bldg", "no laundry on site", "w/d hookups"),
-         !rental_attr %in% c("attached garage", "off-street parking", "no parking", "street parking", "carport"),
+         !rental_attr %in% c("detached garage", "attached garage", "off-street parking", "no parking", "street parking", "carport"),
          rental_attr != "furnished",
          !rental_attr %in% c("cats are OK - purrr", "dogs are OK - wooof"),
          rental_attr != "wheelchair accessible") %>% 
@@ -156,10 +156,10 @@ ads_renamed %>%
 ```{r}
 ads %>% 
   mutate(rental_attr = str_c(rental_attr)) %>% 
-  write_csv(here("data/raw-housing-scrape_craigslist_2020-07-25.csv"))
+  write_csv(here("data/raw-housing-scrape_craigslist_2020-08-29.csv"))
 
 ads_renamed %>% 
   select(-raw_description, everything(), raw_description) %>% 
-  write_xlsx(here("data/structured-housing-scrape_craigslist_2020-08-08.xlsx"))
+  write_xlsx(here("data/structured-housing-scrape_craigslist_2020-08-29.xlsx"))
 ```
 

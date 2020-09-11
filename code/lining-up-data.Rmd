@@ -7,6 +7,8 @@ output: html_document
 
 We've had a bunch of scrapes, lets see how they line up and remove duplicates.
 
+This includes removing the listings we're already sent to the Alliance.
+
 ```{r}
 library(readxl)
 library(writexl)
@@ -15,28 +17,49 @@ library(tidyverse)
 library(lubridate)
 library(here)
 
-
 theme_set(theme_light())
 
-ads1 <- read_xlsx(here("data/structured-housing-scrape_craigslist_2020-08-08.xlsx")) %>% 
+ads_craigs_1 <- read_xlsx(here("data/structured-housing-scrape_craigslist_2020-07-25.xlsx"), skip = 1) %>%
   mutate(`Rent $` = `Rent $` %>% str_remove(r"(\$)") %>% parse_number,
          Bathroom = Bathroom %>% as.numeric)
+ads_craigs_2 <- read_xlsx(here("data/structured-housing-scrape_craigslist_2020-08-08.xlsx")) %>%
+  mutate(`Rent $` = `Rent $` %>% str_remove(r"(\$)") %>% parse_number,
+         Bathroom = Bathroom %>% as.numeric)
+ads_craigs_3 <- read_xlsx(here("data/structured-housing-scrape_craigslist_2020-08-29.xlsx")) %>%
+  mutate(`Rent $` = `Rent $` %>% str_remove(r"(\$)") %>% parse_number,
+         Bathroom = Bathroom %>% as.numeric)
+
+ads1 <- 
+  ads_craigs_3 %>% 
+  anti_join(ads_craigs_2, by = "web_link") %>% 
+  anti_join(ads_craigs_1, by = "web_link")
+
 # this seems to be the most recent of all from Amit
-ads2 <- read_csv(here("data/9th Aug_2020_Kijiji_Longterm_Advertisement_structured.csv")) %>% 
+ads_kijiji_1 <- read_csv(here("data/9th Aug_2020_Kijiji_Longterm_Advertisement_structured.csv")) %>% 
   mutate(laundry = case_when(`Laundry (In Unit)` == "Yes" ~ "In-Suite",
                              `Laundry (In Building)` == "Yes" ~ "In-Building",
                              TRUE ~ "None")) %>% 
   # drop any missing weblinks because there's no way to contact the landlord
   filter(!is.na(url))
+
+ads_kijiji_2 <- read_csv(here("data/Aug-29-2020-Kijiji-Advertisement_structured.csv")) %>% 
+  mutate(laundry = case_when(`Laundry (In Unit)` == "Yes" ~ "In-Suite",
+                             `Laundry (In Building)` == "Yes" ~ "In-Building",
+                             TRUE ~ "None")) %>% 
+  # drop any missing weblinks because there's no way to contact the landlord
+  filter(!is.na(url))
+
+ads2 <- 
+  ads_kijiji_2 %>% 
+  anti_join(ads_kijiji_1, by = "url")
+
+ads3 <- 
+  read_csv(here("data/structured-airbnb-scrape_2020-06.csv")) %>% 
+  mutate(`Rental Type` = as.character(`Rental Type`),
+         `Rent $` = `Rent $` %>% str_remove(r"(\$)") %>% parse_number)
 ```
 
-
-
 ```{r}
-ads1 %>% 
-  names %>% 
-  writeClipboard()
-
 ads1 %>% 
   count(Laundry)
   
@@ -51,7 +74,10 @@ ads1 %>%
   count(Parking)
 ads2 %>% 
   count(`Parking Included`)
+```
 
+
+```{r}
 ads2_renamed <- 
   ads2 %>% 
   select(-X1, -adId) %>% 
@@ -90,9 +116,13 @@ ads2_renamed <-
          #size_ft
          raw_description = description) %>% 
   select(-`Laundry (In Unit)`, -`Laundry (In Building)`)
+```
 
+
+```{r}
 ads <- bind_rows(ads1 %>% mutate(source = "craigslist"), 
-          ads2_renamed %>% mutate(source = "kijiji"))
+          ads2_renamed %>% mutate(source = "kijiji"),
+          ads3 %>% mutate(source = "airbnb"))
 ```
 
 
@@ -102,41 +132,35 @@ ads %>%
   geom_histogram()
 ```
 
-Extract emails
-```{r}
-ads %>% 
-  transmute(email = str_extract(raw_description, r"(\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b)")) %>%
-  filter(!is.na(email))
-
-ads %>% 
-  transmute() %>%
-  filter(!is.na(email))
-
-```
-
-
 ```{r}
 ads_result <- 
-  ads %>% 
+  ads %>%
   mutate(`Short Term Rental` = str_detect(web_link, "short-term-rental"),
          `Rental Type` = case_when(`Rental Type` %in% c("1", "2", "3", "4") ~ str_c(`Rental Type`, " Bedroom"),
-                                   `Rental Type` %in% c("5 Bedroom", "5+", "6+ Bedroom") ~ "5+ Bedroom",
+                                   `Rental Type` %in% c("5 Bedroom", "5+", "6+ Bedroom", "6", "7", "8", "9", "10") ~ "5+ Bedroom",
                                    str_detect(`Rental Type`, "Bachelor") ~ "Bachelor",
+                                   `Rental Type` == "0" ~ NA_character_,
                                    TRUE ~ `Rental Type`)) %>% 
   # drops homes for sale
   filter(`Rent $` < 100000) %>% 
   mutate(`Phone #` = str_extract(raw_description, r"(\d{3}.\d{3}.?\d{4})"),
          email = str_extract(raw_description, r"((?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\]))"),
          email = if_else(str_detect(email, "[:alpha:]"), email, NA_character_),
-         date_scraped = ymd(20200725))
+         date_scraped = if_else(is.na(date_scraped), ymd(20200829), date_scraped))
+```
+
+
+```{r}
+ads_result %>% 
+  count(source, date_scraped)
 
 ads_result %>% 
-  filter(!is.na(email))
+  filter(!is.na(email)) %>% 
+  count(source)
 
 ads_result %>% 
   filter(!is.na(`Phone #`)) %>% 
-  pull(web_link) %>% 
-  writeClipboard()
+  count(source)
 ```
 
 
@@ -144,16 +168,22 @@ ads_result %>%
 ads_result %>% 
   select(`Landlord Email` = email, everything()) %>% 
   arrange(desc(source)) %>% 
-  write_xlsx(here("data/structured-housing-blitz-web-scrape_2020-08-08.xlsx"))
+  write_xlsx(here("data/structured-housing-blitz-web-scrape_2020-08-29.xlsx"))
 ```
 
 
 Some quick sanity checks
 ```{r}
 ads_result %>% 
+  count(source)
+
+ads_result <- readxl::read_xlsx(here("data/structured-housing-blitz-web-scrape_2020-08-29.xlsx"))
+
+ads_result %>% 
   nrow
 
 ads_result %>% 
+  filter(source != "airbnb") %>% 
   count(`Rental Type`) %>% 
   ggplot(aes(`Rental Type`, n)) +
   geom_col() +
@@ -162,16 +192,29 @@ ads_result %>%
        y = "number of units")
 
 ads_result %>% 
+  filter(source == "airbnb") %>% 
+  count(`Rental Type`) %>% 
+  ggplot(aes(`Rental Type`, n)) +
+  geom_col() +
+  coord_flip() +
+  labs(title = "Count of AirBnB units by rental type",
+       y = "number of units")
+
+
+ads_result %>% 
+  filter(source != "airbnb") %>% 
   ggplot(aes(`Rent $`)) +
   geom_histogram() +
   labs(title = "Typical monthly rental prices found")
 
 ads_result %>% 
-  count(!is.na(`Phone #`))
-
+  filter(source == "airbnb") %>% 
+  ggplot(aes(`Rent $`)) +
+  geom_histogram() +
+  labs(title = "Typical AirBnB prices found")
 
 ads_result %>% 
-  count(`Building Location`, `Rent $`, `Rental Type`, `Bathroom`, sort = T)
+  count(!is.na(`Phone #`))
 
 ads_result %>% 
   count(`Building Location`, `Rent $`, `Rental Type`, `Bathroom`, sort = T)

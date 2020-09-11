@@ -1,0 +1,817 @@
+Shelter Type,Province Code,City/Ville,Target Clientele,Gender Served,Shelter Name/Nom du refuge,Number of Beds/Nombre de lits,Type de refuge,Code de la province,Clientèle cible,Sexe desservi
+Emergency,NL,St. John's,Family,Both,Shanawdithit Shelter,15,Refuge d'urgence,T.-N.,Familles,Mixtes
+Emergency,NL,St. John's,Youth,Females,Naomi Centre,8,Refuge d'urgence,T.-N.,Jeunes,Femmes
+Emergency,NL,St. John's,General,Both,The Salvation Army - Wiseman Centre Emergency,20,Refuge d'urgence,T.-N.,Général,Mixtes
+Emergency,NL,St. John's,Youth,Males,Choices For Youth Shelter,9,Refuge d'urgence,T.-N.,Jeunes,Hommes
+Emergency,NL,St. John's,General,Both,Tommy Sexton Centre Shelter,4,Refuge d'urgence,T.-N.,Général,Mixtes
+Transitional,NL,St. John's,General,Both,SBCS Private Market,42,Logement de transition,T.-N.,Général,Mixtes
+Transitional,NL,St. John's,General,Both,SBCS City Housing,32,Logement de transition,T.-N.,Général,Mixtes
+Transitional,NL,St. John's,Youth,Both,Transitional Housing,11,Logement de transition,T.-N.,Jeunes,Mixtes
+Transitional,NL,St. John's,Youth,Both,The Lilly,14,Logement de transition,T.-N.,Jeunes,Mixtes
+Emergency,PE ,Charlottetown,General,Males,Bedford MacDonald,7,Refuge d'urgence,Î.-P.-É,Général,Hommes
+Emergency,NS,Halifax,General,Females,Adsum House Emergency Shelter,16,Refuge d'urgence,N.-É.,Général,Femmes
+Emergency,NS,Halifax,General,Females,Barry House,20,Refuge d'urgence,N.-É.,Général,Femmes
+Emergency,NS,Sydney,General,Both,Community Homeless Shelter,12,Refuge d'urgence,N.-É.,Général,Mixtes
+Transitional,NS,Halifax,General,Males,The Salvation Army - Anchorage Halifax,19,Logement de transition,N.-É.,Général,Hommes
+Transitional,NS,Halifax,General,Females,Wish - Ywca Halifax,35,Logement de transition,N.-É.,Général,Femmes
+Emergency,NS,Dartmouth,Family,Both,Frank MacKay House,15,Refuge d'urgence,N.-É.,Familles,Mixtes
+Emergency,NS,Halifax,General,Males,Metro Turning Point Centre,55,Refuge d'urgence,N.-É.,Général,Hommes
+Transitional,NS,Dartmouth,General,Females,Elizabeth Fry - Holly House,8,Logement de transition,N.-É.,Général,Femmes
+Emergency,NS,Kentville,General,Both,Open Arms,12,Refuge d'urgence,N.-É.,Général,Mixtes
+Emergency,NS,Halifax,Youth,Both,Phoenix Youth Shelter,20,Refuge d'urgence,N.-É.,Jeunes,Mixtes
+Transitional,NS,Yarmouth,Youth,Both,SHYFT Youth Services Society,7,Logement de transition,N.-É.,Jeunes,Mixtes
+Transitional,NS,Bridgewater,Youth,Both,Empire House,8,Logement de transition,N.-É.,Jeunes,Mixtes
+Emergency,NS,New Glasgow,Youth,Both,Pictou County Roots for Youth,4,Refuge d'urgence,N.-É.,Jeunes,Mixtes
+Transitional,NS,Sydney,General,Females,Almost Home Women's Shelter Emergency,6,Logement de transition,N.-É.,Général,Femmes
+Emergency,NB,Moncton,General,Both,Maison de Nazareth,44,Refuge d'urgence,N.-B.,Général,Mixtes
+Emergency,NB,Moncton,General,Both,Harvest House,46,Refuge d'urgence,N.-B.,Général,Mixtes
+Emergency,NB,Saint John,General,Females,Coverdale Centre for Women - Emergency Shelter,10,Refuge d'urgence,N.-B.,Général,Femmes
+Emergency,NB,Saint John,General,Males,Outflow Men's Shelter,25,Refuge d'urgence,N.-B.,Général,Hommes
+Emergency,NB,Fredericton,General,Males,St. John House,27,Refuge d'urgence,N.-B.,Général,Hommes
+Emergency,NB,Fredericton,General,Females,Grace House For Women,10,Refuge d'urgence,N.-B.,Général,Femmes
+Transitional,NB,Fredericton,General,Both,Brunswick Home Transitional House,4,Logement de transition,N.-B.,Général,Mixtes
+Transitional,NB,Fredericton,Youth,Both,Chrysalis House-Youth In Transition,10,Logement de transition,N.-B.,Jeunes,Mixtes
+Emergency,NB,Bathurst,General,Both,Bathurst Emergency Homeless Shelter,10,Refuge d'urgence,N.-B.,Général,Mixtes
+Transitional,QC,Quebec City,General,Females,Maison Charlotte de l'Armée du Salut,17,Logement de transition,QC,Général,Femmes
+Emergency,QC,Saint-Georges,General,Both,Au Bercail de St-Georges,23,Refuge d'urgence,QC,Général,Mixtes
+Emergency,QC,Sherbrooke,General,Both,Accueil Poirier,18,Refuge d'urgence,QC,Général,Mixtes
+Emergency,QC,Sherbrooke,General,Females,Maison Marie-Jeanne,8,Refuge d'urgence,QC,Général,Femmes
+Transitional,QC,Sherbrooke,General,Males,Maison Wilfred-Gregoire,24,Logement de transition,QC,Général,Hommes
+Emergency,QC,Drummondville,Youth,Both,Ensoleilvent,9,Refuge d'urgence,QC,Jeunes,Mixtes
+Transitional,QC,Montreal,Family,Both,Maison Oxygène,5,Logement de transition,QC,Familles,Mixtes
+Transitional,QC,Montreal,General,Males,Residences Bon Accueil - Transitional,26,Logement de transition,QC,Général,Hommes
+Emergency,QC,Montreal,General,Males,Maison du Père - Refuge,194,Refuge d'urgence,QC,Général,Hommes
+Transitional,QC,Montreal,General,Females,OBM - PMP Les Voisines dans la communauté,34,Logement de transition,QC,Général,Femmes
+Transitional,QC,Montreal,General,Females,OBM - PMP Les Voisines,11,Logement de transition,QC,Général,Femmes
+Emergency,QC,Montreal,General,Males,OBM- Webster Services d'urgence,165,Refuge d'urgence,QC,Général,Hommes
+Transitional,QC,Montreal,General,Males,OBM - Webster Services de transition,31,Logement de transition,QC,Général,Hommes
+Transitional,QC,Montreal,General,Males,OBM - Webster PASS,14,Logement de transition,QC,Général,Hommes
+Transitional,QC,Montreal,General,Males,OBM - Webster Douglas,5,Logement de transition,QC,Général,Hommes
+Emergency,QC,Montreal,General,Males,OBM - Webster ACCUEIL,70,Refuge d'urgence,QC,Général,Hommes
+Emergency,QC,Montreal,General,Females,OBM - PMP Refuge,25,Refuge d'urgence,QC,Général,Femmes
+Emergency,QC,Vaudreuil-Dorion,General,Both,L'Aiguillage,18,Refuge d'urgence,QC,Général,Mixtes
+Transitional,QC,Montreal,General,Females,OBM - PMP PRISM,10,Logement de transition,QC,Général,Femmes
+Transitional,QC,Montreal,General,Females,OBM - PMP Etape Plus,25,Logement de transition,QC,Général,Femmes
+Transitional,QC,Montreal,General,Females,OBM - PMP Douglas,2,Logement de transition,QC,Général,Femmes
+Emergency,QC,Montreal,General,Females,Foyer pour Femmes Autochtones de Montréal,16,Refuge d'urgence,QC,Général,Femmes
+Emergency,QC,Montreal,General,Males,Bon Accueil (Mission des Hommes) - Emergency ,196,Refuge d'urgence,QC,Général,Hommes
+Transitional,QC,Montreal,General,Males,Centre NAHA,20,Logement de transition,QC,Général,Hommes
+Transitional,QC,Rouyn-Noranda,Youth,Females,Les Marginales,13,Logement de transition,QC,Jeunes,Femmes
+Emergency,QC,Gatineau,General,Both,Gîte Ami,55,Refuge d'urgence,QC,Général,Mixtes
+Emergency,QC,Mont-Laurier,General,Both,Maison Lyse-Beauchamp,9,Refuge d'urgence,QC,Général,Mixtes
+Emergency,NL,St. John's,General,Both,3 Birds Shelter,9,Refuge d'urgence,T.-N.,Général,Mixtes
+Transitional,BC,Coquitlam,General,Both,3030 Gordon - Transitional ,30,Logement de transition,C.-B.,Général,Mixtes
+Emergency,ON,Ottawa,Family,Both,City of Ottawa Carling Family Shelter,176,Refuge d'urgence,ON,Familles,Mixtes
+Emergency,ON,Ottawa,Family,Both,YM/YWCA Emergency Shelter,25,Refuge d'urgence,ON,Familles,Mixtes
+Transitional,ON,Ottawa,Youth,Both,YMCA - Second Stage Housing,17,Logement de transition,ON,Jeunes,Mixtes
+Emergency,ON,Ottawa,Youth,Females,Evelyn Horne Emergency Housing,12,Refuge d'urgence,ON,Jeunes,Femmes
+Transitional,ON,Ottawa,Youth,Females,Evelyn Horne Transitional Housing,12,Logement de transition,ON,Jeunes,Femmes
+Emergency,ON,Ottawa,General,Females,Cornerstone Housing for Women,55,Refuge d'urgence,ON,Général,Femmes
+Emergency,ON,Ottawa,General,Males,Ottawa Mission - Men's Shelter,179,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Ottawa,General,Males,Ottawa Mission - Day Program,12,Refuge d'urgence,ON,Général,Hommes
+Transitional,ON,Ottawa,General,Males,Ottawa Mission - Lifehouse,11,Logement de transition,ON,Général,Hommes
+Emergency,ON,Ottawa,General,Males,Ottawa Mission - Stabilization,13,Refuge d'urgence,ON,Général,Hommes
+Transitional,ON,Ottawa,General,Males,Ottawa Mission - Woodlawn,6,Logement de transition,ON,Général,Hommes
+Emergency,ON,Ottawa,General,Males,SGH- Male Emergency,95,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Ottawa,General,Females,SGH- Women's Special Care,16,Refuge d'urgence,ON,Général,Femmes
+Emergency,ON,Ottawa,General,Females,SGH - Female Emergency,46,Refuge d'urgence,ON,Général,Femmes
+Emergency,ON,Ottawa,General,Both,SGH- MAP ,8,Refuge d'urgence,ON,Général,Mixtes
+Emergency,ON,Ottawa,General,Both,SGH - TESP,34,Refuge d'urgence,ON,Général,Mixtes
+Emergency,ON,Ottawa,General,Males,Salvation Army - Men's Shelter,92,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Ottawa,General,Males,Salvation Army - Life Skills,14,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Ottawa,General,Males,Salvation Army - Locked Two Man,16,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Ottawa,General,Males,Salvation Army - Special Care,30,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Ottawa,General,Males,Salvation Army - Stabilization,16,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Ottawa,Youth,Males,Young Men's Emergency Shelter,12,Refuge d'urgence,ON,Jeunes,Hommes
+Transitional,ON,Ottawa,Youth,Males,Young Men's Transitional Housing,12,Logement de transition,ON,Jeunes,Hommes
+Transitional,ON,Kingston,General,Males,Ryandale Transitional Housing,6,Logement de transition,ON,Général,Hommes
+Emergency,ON,Peterborough,Family,Both,Y.E.S. Shelter - Youth and Families,30,Refuge d'urgence,ON,Familles,Mixtes
+Transitional,ON,Peterborough,Youth,Both,Abbott House,6,Logement de transition,ON,Jeunes,Mixtes
+Emergency,ON,Peterborough,General,Males,Shelter for Men,30,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Peterborough,General,Females,Cameron House Shelter for Women,10,Refuge d'urgence,ON,Général,Femmes
+Emergency,ON,Oshawa,General,Males,Cornerstone - Emergency,40,Refuge d'urgence,ON,Général,Hommes
+Transitional,ON,Oshawa,General,Females,YWCA Durham,6,Logement de transition,ON,Général,Femmes
+Emergency,ON,Whitby,General,Females,Muslim Welfare Home,40,Refuge d'urgence,ON,Général,Femmes
+Emergency,ON,Whitby,Family,Both,Second Shelter MWH,20,Refuge d'urgence,ON,Familles,Mixtes
+Emergency,ON,Toronto,Family,Both,Toronto Community Hostel,14,Refuge d'urgence,ON,Familles,Mixtes
+Emergency,ON,Toronto,General,Both,Toronto Community Hostel - Singles,13,Refuge d'urgence,ON,Général,Mixtes
+Emergency,ON,Toronto,Youth,Both,Horizons for Youth,45,Refuge d'urgence,ON,Jeunes,Mixtes
+Emergency,ON,Toronto,General,Males,Na-Me-Res (Native Men's Residence),71,Refuge d'urgence,ON,Général,Hommes
+Transitional,ON,Toronto,General,Males,Sagatay,20,Logement de transition,ON,Général,Hommes
+Emergency,ON,Toronto,Family,Both,Birkdale Residence,205,Refuge d'urgence,ON,Familles,Mixtes
+Emergency,ON,Toronto,General,Males,Christie-Ossington Centre Male,82,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Toronto,General,Males,Christie Ossington Men's Hostel South,42,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Toronto,Youth,Both,Covenant House - Toronto,94,Refuge d'urgence,ON,Jeunes,Mixtes
+Transitional,ON,Toronto,Youth,Both,Covenant House - Rights of Passage,28,Logement de transition,ON,Jeunes,Mixtes
+Transitional,ON,Toronto,Youth,Females,Covenant House - Transitional Safe Beds for Women,2,Logement de transition,ON,Jeunes,Femmes
+Emergency,ON,Toronto,General,Both,Dixon Hall - Heyworth House,80,Refuge d'urgence,ON,Général,Mixtes
+Emergency,ON,Toronto,General,Males,Dixon Hall - Schoolhouse,47,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Toronto,Youth,Both,Eva’s Place,40,Refuge d'urgence,ON,Jeunes,Mixtes
+Emergency,ON,Toronto,Youth,Both,Eva’s Satellite,32,Refuge d'urgence,ON,Jeunes,Mixtes
+Transitional,ON,Toronto,Youth,Both,Eva’s Phoenix,50,Logement de transition,ON,Jeunes,Mixtes
+Emergency,ON,Toronto,Family,Both,Family Residence - Main,110,Refuge d'urgence,ON,Familles,Mixtes
+Transitional,ON,Toronto,General,Both,Fife House - Denison,5,Logement de transition,ON,Général,Mixtes
+Transitional,ON,Toronto,General,Both,Fife House - Sherbourne,11,Logement de transition,ON,Général,Mixtes
+Emergency,ON,Toronto,General,Females,Fred Victor Women's Centre,41,Refuge d'urgence,ON,Général,Femmes
+Emergency,ON,Toronto,General,Both,Fred Victor Bethlehem United Centre,60,Refuge d'urgence,ON,Général,Mixtes
+Transitional,ON,Toronto,General,Females,Fred Victor - Transition to Housing,26,Logement de transition,ON,Général,Femmes
+Transitional,ON,Toronto,General,Females,Fred Victor Women's Transition to Housing Program,37,Logement de transition,ON,Général,Femmes
+Emergency,ON,Toronto,General,Males,Good Shepherd Centre,70,Refuge d'urgence,ON,Général,Hommes
+Transitional,ON,Toronto,General,Males,D.a.r.e - Drug Alcohol Recovery Enrichment Program,25,Logement de transition,ON,Général,Hommes
+Transitional,ON,Toronto,General,Males,Barrett House,5,Logement de transition,ON,Général,Hommes
+Emergency,ON,Toronto,General,Females,Savard's House,30,Refuge d'urgence,ON,Général,Femmes
+Emergency,ON,Scarborough,General,Both,Scarborough Shelter,90,Refuge d'urgence,ON,Général,Mixtes
+Transitional,ON,Toronto,General,Both,Strachan House,88,Logement de transition,ON,Général,Mixtes
+Emergency,ON,Toronto,General,Both,Homes First Society - Flex Program,5,Refuge d'urgence,ON,Général,Mixtes
+Emergency,ON,Toronto,General,Females,Homes First Society - Kennedy Shelter Women's Program,90,Refuge d'urgence,ON,Général,Femmes
+Transitional,ON,Toronto,Youth,Both,Native Child & Family Services,12,Logement de transition,ON,Jeunes,Mixtes
+Emergency,ON,Toronto,General,Females,Nellie's,40,Refuge d'urgence,ON,Général,Femmes
+Emergency,ON,Toronto,Family,Both,Robertson House,90,Refuge d'urgence,ON,Familles,Mixtes
+Emergency,ON,Toronto,General,Males,Scott Mission,53,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Toronto,General,Males,Seaton House - Main Site,190,Refuge d'urgence,ON,Général,Hommes
+Transitional,ON,Toronto,General,Males,Downsview Dells,28,Logement de transition,ON,Général,Hommes
+Emergency,ON,Toronto,General,Males,Seaton House - Annex Program,70,Refuge d'urgence,ON,Général,Hommes
+Transitional,ON,Toronto,General,Males,Seaton House - Fort York,74,Logement de transition,ON,Général,Hommes
+Transitional,ON,Toronto,General,Males,Seaton House - Fort York Sro Units,48,Logement de transition,ON,Général,Hommes
+Transitional,ON,Toronto,General,Males,Seaton House - Long Term Program,29,Logement de transition,ON,Général,Hommes
+Emergency,ON,Toronto,General,Both,O'Neill Program - Co-Ed,50,Refuge d'urgence,ON,Général,Mixtes
+Emergency,ON,Toronto,General,Males,Seaton House - Extended Hostel Program,66,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Toronto,General,Males,St. Simon's Shelter,61,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Toronto,General,Females,Elisa House,40,Refuge d'urgence,ON,Général,Femmes
+Emergency,ON,Toronto,General,Females,Mary’s Home,38,Refuge d'urgence,ON,Général,Femmes
+Transitional,ON,Toronto,General,Females,St. Clare's Residence,30,Logement de transition,ON,Général,Femmes
+Transitional,ON,Toronto,General,Females,Amelie House,22,Logement de transition,ON,Général,Femmes
+Emergency,ON,Toronto,General,Females,Street Haven at the Crossroads,50,Refuge d'urgence,ON,Général,Femmes
+Emergency,ON,Toronto,Youth,Both,Turning Point Youth Services Emergency,35,Refuge d'urgence,ON,Jeunes,Mixtes
+Emergency,ON,Toronto,General,Females,Women’s Residence - Main Site,108,Refuge d'urgence,ON,Général,Femmes
+Transitional,ON,Toronto,General,Females,Bellwoods House,10,Logement de transition,ON,Aînés,Femmes
+Emergency,ON,Toronto,Family,Both,Woodgreen Red Door,100,Refuge d'urgence,ON,Familles,Mixtes
+Emergency,ON,Toronto,Youth,Both,YMCA House - Vanauley,40,Refuge d'urgence,ON,Jeunes,Mixtes
+Transitional,ON,Toronto,Youth,Both,Sprott House,25,Logement de transition,ON,Jeunes,Mixtes
+Emergency,ON,Toronto,Youth,Both,Youth Without Shelter,33,Refuge d'urgence,ON,Jeunes,Mixtes
+Transitional,ON,Toronto,Youth,Both,Youth Without Shelter Stay In School Program,20,Logement de transition,ON,Jeunes,Mixtes
+Transitional,ON,Toronto,General,Both,SHARC Bedded Program,40,Logement de transition,ON,Général,Mixtes
+Emergency,ON,Toronto,General,Males,Cornerstone Shelter,56,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Ajax,Youth,Both,Joanne's House,13,Refuge d'urgence,ON,Jeunes,Mixtes
+Emergency,ON,Toronto,Youth,Females,First Stop Woodlawn Youth Unit,31,Refuge d'urgence,ON,Jeunes,Femmes
+Emergency,ON,Toronto,General,Females,Woodlawn Residence,31,Refuge d'urgence,ON,Général,Femmes
+Emergency,ON,Toronto,Youth,Both,Kennedy House Youth Shelter,40,Refuge d'urgence,ON,Jeunes,Mixtes
+Emergency,ON,Toronto,General,Females,Evangeline Residence,90,Refuge d'urgence,ON,Général,Femmes
+Emergency,ON,Toronto,General,Females,Florence Booth House,60,Refuge d'urgence,ON,Général,Femmes
+Emergency,ON,Toronto,General,Males,Gateway - Men's Hostel,108,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Toronto,General,Males,Maxwell Meighen Centre Emergency,270,Refuge d'urgence,ON,Général,Hommes
+Transitional,ON,Toronto,General,Males,Maxwell Meighen - Primary Support ,10,Logement de transition,ON,Général,Hommes
+Transitional,ON,Toronto,General,Males,Maxwell Meighen Transition To Housing,45,Logement de transition,ON,Général,Hommes
+Emergency,ON,Newmarket,General,Females,Belinda's Place,27,Refuge d'urgence,ON,Général,Femmes
+Transitional,ON,Newmarket,General,Females,Belinda's Place - Transition,9,Logement de transition,ON,Général,Femmes
+Emergency,ON,Richmond Hill,Youth,Both,360 Kids Support Services,14,Refuge d'urgence,ON,Jeunes,Mixtes
+Transitional,ON,Richmond Hill,Youth,Both,360 Kids Stay,11,Logement de transition,ON,Jeunes,Mixtes
+Transitional,ON,Toronto,General,Males,Bailey House,2,Logement de transition,ON,Général,Hommes
+Emergency,ON,Toronto,General,Males,Islington Seniors' Shelter Men's,28,Refuge d'urgence,ON,Aînés,Hommes
+Emergency,ON,Toronto,General,Females,Islington Seniors' Shelter Women's,17,Refuge d'urgence,ON,Aînés,Femmes
+Emergency,ON,Toronto,General,Males,Salvation Army - New Hope Leslieville Shelter  ,60,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Toronto,General,Females,Davenport Shelter for Women,40,Refuge d'urgence,ON,Général,Femmes
+Emergency,ON,Toronto,Youth,Females,Davenport Shelter for Youth,15,Refuge d'urgence,ON,Jeunes,Femmes
+Emergency,ON,Hamilton,General,Males,Men's Centre,54,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Hamilton,General,Males,Men's Residence,58,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Hamilton,General,Males,Hamilton Booth Centre,82,Refuge d'urgence,ON,Général,Hommes
+Transitional,ON,Hamilton,General,Males,Hamilton Booth Centre - transitional,82,Logement de transition,ON,Général,Hommes
+Emergency,ON,Hamilton,General,Females,Mountain View Project,15,Refuge d'urgence,ON,Général,Femmes
+Transitional,ON,Hamilton,Youth,Both,Brennan House,15,Logement de transition,ON,Jeunes,Mixtes
+Emergency,ON,Hamilton,Youth,Both,Notre Dame House,21,Refuge d'urgence,ON,Jeunes,Mixtes
+Emergency,ON,Hamilton,General,Females,Mary's Place Hamilton,25,Refuge d'urgence,ON,Général,Femmes
+Emergency,ON,Hamilton,Family,Both,GSC Family Centre,80,Refuge d'urgence,ON,Familles,Mixtes
+Emergency,ON,St. Catharines,General,Females,YWCA Niagara Region King Street,20,Refuge d'urgence,ON,Général,Femmes
+Emergency,ON,St. Catharines,General,Males,St. Catharines' Booth Centre,20,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Kitchener,General,Males,Charles Street Men's Hostel,51,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Kitchener,Family,Females,Mary's Place Kitchener,66,Refuge d'urgence,ON,Familles,Femmes
+Emergency,ON,Kitchener,Youth,Both,Providing a Roof Shelter,17,Refuge d'urgence,ON,Jeunes,Mixtes
+Emergency,ON,Kitchener,Youth,Both,Safe Haven Shelter,10,Refuge d'urgence,ON,Jeunes,Mixtes
+Emergency,ON,Kitchener,General,Males,Working Centre-Bunkies,2,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Brantford,General,Males,The Salvation Army - Brantford Booth Centre,40,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Guelph,General,Males,The Stepping Stone,22,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Guelph,General,Females,Dwelling Place,16,Refuge d'urgence,ON,Général,Femmes
+Transitional,ON,Guelph,Youth,Males,Wyndham House for Young Men,8,Logement de transition,ON,Jeunes,Hommes
+Transitional,ON,Guelph,Youth,Females,Wyndham House for Young Women,8,Logement de transition,ON,Jeunes,Femmes
+Emergency,ON,Guelph,Youth,Both,Youth Emergency Shelter (Y.E.S),16,Refuge d'urgence,ON,Jeunes,Mixtes
+Transitional,ON,St. Thomas,General,Both,YWCA St. Thomas Elgin ,21,Logement de transition,ON,Général,Mixtes
+Transitional,ON,St. Thomas,Youth,Males,YWCA Fair Winds,4,Logement de transition,ON,Jeunes,Hommes
+Transitional,ON,St. Thomas,Youth,Females,YWCA - Harmony House,4,Logement de transition,ON,Jeunes,Femmes
+Transitional,ON,St. Thomas,General,Males,YWCA - Second Story,7,Logement de transition,ON,Général,Hommes
+Transitional,ON,St. Thomas,Youth,Males,YWCA Unity House Transitional Home for Young Men,3,Logement de transition,ON,Jeunes,Hommes
+Transitional,ON,St. Thomas,Youth,Females,Horizon House Transitional Home for Young Women,3,Logement de transition,ON,Jeunes,Femmes
+Emergency,ON,Windsor,General,Both,Windsor Residence Inc.,5,Refuge d'urgence,ON,Général,Mixtes
+Emergency,ON,Windsor,General,Females,Welcome Centre Shelter for Women,22,Refuge d'urgence,ON,Général,Femmes
+Emergency,ON,Windsor,General,Males,Windsor Community and Rehabilitation Centre,24,Refuge d'urgence,ON,Général,Hommes
+Transitional,ON,Windsor,Youth,Males,Windsor Residence for Young Men,10,Logement de transition,ON,Jeunes,Hommes
+Emergency,ON,North Bay,General,Both,Crisis Centre North Bay                           ,19,Refuge d'urgence,ON,Général,Mixtes
+Emergency,ON,Sudbury,Youth,Both,Foyer Notre Dame House,16,Refuge d'urgence,ON,Jeunes,Mixtes
+Emergency,ON,Sudbury,Family,Both,Cedar Place,26,Refuge d'urgence,ON,Familles,Mixtes
+Emergency,ON,Sault Ste. Marie,General,Males,Vincent Place Men's Shelter,23,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Thunder Bay,General,Both,Thunder Bay Shelter House,42,Refuge d'urgence,ON,Général,Mixtes
+Emergency,ON,Thunder Bay,General,Males,Booth Centre Thunder Bay,17,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Red Lake,General,Both,Red Lake Area Emergency Shelter,14,Refuge d'urgence,ON,Général,Mixtes
+Emergency,ON,Cambridge,Youth,Both,Argus Residence,30,Refuge d'urgence,ON,Jeunes,Mixtes
+Emergency,ON,Cambridge,General,Both,The Cambridge Shelter,78,Refuge d'urgence,ON,Général,Mixtes
+Transitional,ON,Cambridge,General,Males,Saginaw House,9,Logement de transition,ON,Général,Hommes
+Transitional,ON,Cambridge,General,Both,Ancora House,5,Logement de transition,ON,Général,Mixtes
+Emergency,ON,Oakville,General,Both,Halton Lighthouse Shelter,32,Refuge d'urgence,ON,Général,Mixtes
+Emergency,ON,Niagara Falls,Youth,Both,Nightlight Emergency Youth Shelter,8,Refuge d'urgence,ON,Jeunes,Mixtes
+Transitional,ON,Niagara Falls,Youth,Both,Nightlight Transitions,8,Logement de transition,ON,Jeunes,Mixtes
+Emergency,ON,Orangeville,Youth,Both,Choices Youth Shelter,20,Refuge d'urgence,ON,Jeunes,Mixtes
+Transitional,ON,Orangeville,Youth,Both,Next Choices,7,Logement de transition,ON,Jeunes,Mixtes
+Transitional,ON,Mississauga,Family,Both,Angela's Place,60,Logement de transition,ON,Familles,Mixtes
+Emergency,ON,Mississauga,Family,Both,Peel Family Shelter Emergency,225,Refuge d'urgence,ON,Familles,Mixtes
+Emergency,ON,Mississauga,General,Both,Cawthra Road Emergency,119,Refuge d'urgence,ON,Général,Mixtes
+Emergency,ON,Brampton,Youth,Both,Brampton Queen Street Youth Shelter,40,Refuge d'urgence,ON,Jeunes,Mixtes
+Emergency,ON,Brampton,General,Males,Wilkinson Road Shelter,86,Refuge d'urgence,ON,Général,Hommes
+Transitional,ON,Mississauga,Youth,Both,Peel Youth Village,48,Logement de transition,ON,Jeunes,Mixtes
+Emergency,ON,Mississauga,Youth,Both,Our Place Peel Emergency,14,Refuge d'urgence,ON,Jeunes,Mixtes
+Transitional,ON,Mississauga,Youth,Both,Our Place Peel Transitional,6,Logement de transition,ON,Jeunes,Mixtes
+Emergency,ON,Newmarket,Family,Both,York Region Leeder Place,60,Refuge d'urgence,ON,Familles,Mixtes
+Emergency,ON,Newmarket,General,Males,York Region Porter Place,30,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,East Gwillimbury,Youth,Males,York Region Youth Shelter,12,Refuge d'urgence,ON,Jeunes,Hommes
+Emergency,ON,Sutton West,Youth,Both,Sutton Youth Shelter,16,Refuge d'urgence,ON,Jeunes,Mixtes
+Transitional,ON,Sutton West,Youth,Both,Sutton Youth Transitional,10,Logement de transition,ON,Jeunes,Mixtes
+Transitional,ON,Richmond Hill,Youth,Females,360 Kids - HOPE,11,Logement de transition,ON,Jeunes,Femmes
+Emergency,MB,Winnipeg,Youth,Both,Macdonald Youth Services,8,Refuge d'urgence,MB,Jeunes,Mixtes
+Emergency,MB,Winnipeg,General,Both,Hannah's Place,110,Refuge d'urgence,MB,Général,Mixtes
+Transitional,MB,Winnipeg,General,Males,Forward House Ministries Inc.,40,Logement de transition,MB,Général,Hommes
+Emergency,MB,Winnipeg,Family,Both,Sonrise Village Family Shelter,60,Refuge d'urgence,MB,Familles,Mixtes
+Emergency,MB,Winnipeg,General,Both,Residential Services - Emergency Shelter,45,Refuge d'urgence,MB,Général,Mixtes
+Transitional,MB,Winnipeg,General,Males,Centre of Hope - The Haven,18,Logement de transition,MB,Général,Hommes
+Emergency,MB,Winnipeg,General,Both,Main Street Project Emergency,75,Refuge d'urgence,MB,Général,Mixtes
+Transitional,MB,Winnipeg,General,Both,Mainstay,34,Logement de transition,MB,Général,Mixtes
+Emergency,MB,Winnipeg,Youth,Both,Ndinawe Safe House,16,Refuge d'urgence,MB,Jeunes,Mixtes
+Emergency,MB,Brandon,General,Both,CMHA Westman,25,Refuge d'urgence,MB,Général,Mixtes
+Transitional,MB,Brandon,General,Both,YWCA Meredith Place,21,Logement de transition,MB,Général,Mixtes
+Emergency,MB,Brandon,Family,Both,YWCA Meredith Place - Emergency Units,12,Refuge d'urgence,MB,Familles,Mixtes
+Emergency,MB,Thompson,General,Both,Nanatowiho Wikamik,24,Refuge d'urgence,MB,Général,Mixtes
+Transitional,MB,Thompson,General,Both,Arrow's Path,4,Logement de transition,MB,Général,Mixtes
+Transitional,MB,Thompson,General,Both,Transitional Housing Facility,13,Logement de transition,MB,Général,Mixtes
+Emergency,MB,Swan River,General,Both,E.C.H.O. Emergency Housing,9,Refuge d'urgence,MB,Général,Mixtes
+Transitional,MB,Swan River,General,Males,E.C.H.O. Transitional Housing,22,Logement de transition,MB,Général,Hommes
+Emergency,MB,Flin Flon,General,Both,Flin Flon Friendship Centre Shelter,15,Refuge d'urgence,MB,Général,Mixtes
+Transitional,SK,Regina,General,Males,Waterston House,40,Logement de transition,SK,Général,Hommes
+Emergency,SK,Regina,General,Males,Waterston Centre - Emergency Shelter,46,Refuge d'urgence,SK,Général,Hommes
+Emergency,SK,Regina,General,Females,YWCA Kikinaw Residence - Transitional ,47,Refuge d'urgence,SK,Général,Femmes
+Emergency,SK,Regina,General,Females,YWCA My Aunt's Place,22,Refuge d'urgence,SK,Général,Femmes
+Transitional,SK,Regina,General,Females,Ehrlo Community Services,12,Logement de transition,SK,Général,Femmes
+Emergency,SK,Regina,General,Males,SHRM Men's Emergency Shelter,24,Refuge d'urgence,SK,Général,Hommes
+Transitional,SK,Regina,Youth,Females,The Salvation Army Gemma House,6,Logement de transition,SK,Jeunes,Femmes
+Transitional,SK,Regina,Youth,Females,D.O.C.S. Place,6,Logement de transition,SK,Jeunes,Femmes
+Transitional,SK,Regina,Youth,Females,W.E.N.D.Y's House,6,Logement de transition,SK,Jeunes,Femmes
+Emergency,SK,Moose Jaw,General,Males,Riverside Mission,10,Refuge d'urgence,SK,Général,Hommes
+Transitional,SK,Saskatoon,General,Males,SCC Transitional Housing,12,Logement de transition,SK,Général,Hommes
+Emergency,SK,Saskatoon,General,Males,SCC Men's Hostel - Noah's Ark,35,Refuge d'urgence,SK,Général,Hommes
+Emergency,SK,Saskatoon,Youth,Males,SCC Youth,1,Refuge d'urgence,SK,Jeunes,Hommes
+Emergency,SK,Saskatoon,General,Females,YWCA Crisis Shelter,34,Refuge d'urgence,SK,Général,Femmes
+Transitional,SK,Saskatoon,Youth,Females,YWCA Saskatoon Margaret's Place,6,Logement de transition,SK,Jeunes,Femmes
+Transitional,SK,Saskatoon,General,Females,YWCA Saskatoon Turning Points,15,Logement de transition,SK,Général,Femmes
+Transitional,SK,Saskatoon,General,Males,McLeod House,16,Logement de transition,SK,Général,Hommes
+Transitional,SK,Saskatoon,Youth,Males,Quint Male Youth Lodge,10,Logement de transition,SK,Jeunes,Hommes
+Transitional,SK,Saskatoon,General,Both,Shirley Skelton Manor,20,Logement de transition,SK,Général,Mixtes
+Transitional,SK,Saskatoon,Youth,Females,Bethany Home,10,Logement de transition,SK,Jeunes,Femmes
+Transitional,SK,Saskatoon,General,Both,The Lighthouse - Transitional (Respite) Bed,1,Logement de transition,SK,Général,Mixtes
+Emergency,SK,Saskatoon,General,Males,Lighthouse Supported Living Inc Emergency - Men,17,Refuge d'urgence,SK,Général,Hommes
+Emergency,SK,Saskatoon,General,Females,Lighthouse Supported Living Inc Emergency - Women,20,Refuge d'urgence,SK,Général,Femmes
+Emergency,SK,Saskatoon,General,Males,Lighthouse Supported Living Inc. - Low Barrier Shelter - Men,30,Refuge d'urgence,SK,Général,Hommes
+Emergency,SK,Saskatoon,General,Females,Lighthouse Supported Living Inc. - Low Barrier Shelter (Women),9,Refuge d'urgence,SK,Général,Femmes
+Transitional,SK,Saskatoon,General,Females,Infinity House,22,Logement de transition,SK,Général,Femmes
+Emergency,SK,Saskatoon,General,Males,Salvation Army - Crossroads Residential Services,39,Refuge d'urgence,SK,Général,Hommes
+Emergency,SK,Prince Albert,General,Both,YWCA - Our House,22,Refuge d'urgence,SK,Général,Mixtes
+Transitional,SK,Prince Albert,General,Both,YWCA - Our House Transitional,7,Logement de transition,SK,Général,Mixtes
+Emergency,AB,Brocket,General,Both,Piikani Nation Homeless Shelter,unknown,Refuge d'urgence,AB,Général,Mixtes
+Emergency,AB,Calgary,General,Females,YWCA -Mary Dover House Emergency Beds,6,Refuge d'urgence,AB,Général,Femmes
+Transitional,AB,Calgary,General,Females,YWCA - Mary Dover House,80,Logement de transition,AB,Général,Femmes
+Emergency,AB,Calgary,Family,Both,Brenda's House,60,Refuge d'urgence,AB,Familles,Mixtes
+Emergency,AB,Calgary,General,Both,The Mustard Seed Shelter,370,Refuge d'urgence,AB,Général,Mixtes
+Transitional,AB,Calgary,General,Males,Calgary Dream Centre,125,Logement de transition,AB,Général,Hommes
+Emergency,AB,Calgary,General,Both,Drop In and Rehab Centre,1100,Refuge d'urgence,AB,Général,Mixtes
+Emergency,AB,Calgary,General,Males,The Salvation Army - Centre Of Hope Emergency,80,Refuge d'urgence,AB,Général,Hommes
+Emergency,AB,Calgary,General,Females,WISH,11,Refuge d'urgence,AB,Général,Femmes
+Emergency,AB,Calgary,General,Both,Calgary Alpha House,120,Refuge d'urgence,AB,Général,Mixtes
+Emergency,AB,Calgary,Youth,Both,Boys and Girls Club - Avenue 15 Youth Shelter,18,Refuge d'urgence,AB,Jeunes,Mixtes
+Transitional,AB,Calgary,Youth,Females,Boys and Girls Club - Haven's Way,6,Logement de transition,AB,Jeunes,Femmes
+Transitional,AB,Calgary,Youth,Both,Boys and Girls Club - Safe House,4,Logement de transition,AB,Jeunes,Mixtes
+Emergency,AB,Calgary,Family,Both,C110 Family Shelter,120,Refuge d'urgence,AB,Familles,Mixtes
+Transitional,AB,Calgary,Youth,Both,John Howard Society - Raido House Transitional,8,Logement de transition,AB,Jeunes,Mixtes
+Emergency,AB,Calgary,General,Both,Kerby Rotary Shelter,16,Refuge d'urgence,AB,Aînés,Mixtes
+Transitional,AB,Calgary,General,Males,The Salvation Army - Centre Of Hope Transitional,179,Logement de transition,AB,Général,Hommes
+Emergency,AB,Calgary,General,Females,YWCA - Sherriff King Home,15,Refuge d'urgence,AB,Général,Femmes
+Transitional,AB,Cold Lake,General,Both,Kokum's House,8,Logement de transition,AB,Général,Mixtes
+Emergency,AB,Edmonton,General,Both,George Spady Centre Overnight Shelter,60,Refuge d'urgence,AB,Général,Mixtes
+Transitional,AB,Edmonton,General,Both,George Spady Centre Detox ,27,Logement de transition,AB,Général,Mixtes
+Transitional,AB,Edmonton,General,Males,Addictions and Residential Centre ,148,Logement de transition,AB,Général,Hommes
+Transitional,AB,Edmonton,General,Males,Urban Manor,75,Logement de transition,AB,Général,Hommes
+Emergency,AB,Edmonton,General,Females,E4C Women's Emergency Accommodation Centre,66,Refuge d'urgence,AB,Général,Femmes
+Emergency,AB,Edmonton,General,Males,Hope Mission - Herb Jamieson Centre,250,Refuge d'urgence,AB,Général,Hommes
+Transitional,AB,Edmonton,Youth,Both,Anderson Hall,14,Logement de transition,AB,Jeunes,Mixtes
+Emergency,ON,Toronto,General,Males,545 Lake Shore Blvd. W. Men's Program,40,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Toronto,General,Both,545 Lake Shore Blvd. W. Mixed Adult Program,100,Refuge d'urgence,ON,Général,Mixtes
+Emergency,ON,Toronto,General,Females,545 Lake Shore Blvd. W. Women's Program,60,Refuge d'urgence,ON,Général,Femmes
+Emergency,BC,Penticton,General,Both,Compass House,30,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Kelowna,General,Males,Kelowna Gospel Mission,60,Refuge d'urgence,C.-B.,Général,Hommes
+Emergency,BC,Kelowna,General,Females,Alexandra Gardner Women and Children Safe Centre,20,Refuge d'urgence,C.-B.,Général,Femmes
+Transitional,BC,Victoria,General,Both,PHS Community Services Society - Super 8 Transitional Shelter,47,Logement de transition,C.-B.,Général,Mixtes
+Emergency,BC,Vancouver,General,Both,PHS Community Services Society - New Fountain Shelter,60,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Vancouver,General,Both,Aboriginal Central Street Shelter,100,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Vernon,General,Both,Gateway Support Services for Men and Women,40,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Kamloops,General,Both,Emerald Centre,55,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Abbotsford,General,Both,Abbotsford Centre of Hope Emergency,30,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Chilliwack,General,Both,Brigadier Arthur Cartmell House,20,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Mission,General,Both,Haven in the Hollow,27,Refuge d'urgence,C.-B.,Général,Mixtes
+Transitional,BC,New Westminster,General,Both,Lookout - Cliff Block Transitional,23,Logement de transition,C.-B.,Général,Mixtes
+Emergency,BC,Vancouver,General,Both,Lookout - North Shore Shelter,46,Refuge d'urgence,C.-B.,Général,Mixtes
+Transitional,BC,North Vancouver,General,Both,Lookout - North Shore Transitional Housing,25,Logement de transition,C.-B.,Général,Mixtes
+Emergency,BC,Vancouver,General,Both,Lookout - Al Mitchell Place Shelter,46,Refuge d'urgence,C.-B.,Général,Mixtes
+Transitional,BC,Vancouver,General,Both,Hazelton,39,Logement de transition,C.-B.,Général,Mixtes
+Transitional,BC,Vancouver,General,Both,Lookout - Sakura-So,38,Logement de transition,C.-B.,Général,Mixtes
+Emergency,BC,Vancouver,General,Both,Lookout - Walton Hotel,48,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,New Westminster,General,Males,Lookout - New Westminster,15,Refuge d'urgence,C.-B.,Général,Hommes
+Emergency,BC,Vancouver,General,Both,Lookout - Yukon St Shelter,71,Refuge d'urgence,C.-B.,Général,Mixtes
+Transitional,BC,Vancouver,General,Both,Yukon Transitional Housing,37,Logement de transition,C.-B.,Général,Mixtes
+Transitional,BC,New Westminster,General,Both,Lookout - Rhoda Kaellis Housing Centre,24,Logement de transition,C.-B.,Général,Mixtes
+Transitional,BC,Surrey,Youth,Males,Lookout - Crawford Manor,11,Logement de transition,C.-B.,Jeunes,Hommes
+Transitional,BC,North Vancouver,General,Both,Dovercourt,20,Logement de transition,C.-B.,Général,Mixtes
+Transitional,BC,Surrey,General,Both,Lookout - MacMillan House,11,Logement de transition,C.-B.,Général,Mixtes
+Transitional,BC,Vancouver,General,Males,Lookout - Pender Residence,18,Logement de transition,C.-B.,Général,Hommes
+Emergency,BC,Vancouver,General,Both,First United Church - Shelter Program,60,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Vancouver,Youth,Both,Covenant House - Vancouver,22,Refuge d'urgence,C.-B.,Jeunes,Mixtes
+Emergency,BC,Vancouver,General,Both,Harbour Light - The Crosswalk,36,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Vancouver,General,Females,Downtown Eastiside's Women's Centre - 412 Women's Emergency Shelter,57,Refuge d'urgence,C.-B.,Général,Femmes
+Emergency,BC,Vancouver,General,Females,Springhouse Emergency Shelter,32,Refuge d'urgence,C.-B.,Général,Femmes
+Transitional,BC,Vancouver,General,Females,St. Elizabeth's Home Transitional Housing,10,Logement de transition,C.-B.,Général,Femmes
+Emergency,BC,Vancouver,General,Males,Catholic Charities Men's Hostel,102,Refuge d'urgence,C.-B.,Général,Hommes
+Emergency,BC,Langley,General,Both,The Salvation Army - Gateway of Hope,30,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Vancouver,General,Males,Belkin House - Emergency Men,70,Refuge d'urgence,C.-B.,Général,Hommes
+Emergency,BC,Vancouver,General,Females,Belkin House - Emergency Women and Children,11,Refuge d'urgence,C.-B.,Général,Femmes
+Emergency,BC,Surrey,General,Females,Cynthia's Place Emergency,14,Refuge d'urgence,C.-B.,Général,Femmes
+Emergency,BC,New Westminster,General,Females,Elizabeth Gurney House,12,Refuge d'urgence,C.-B.,Général,Femmes
+Emergency,BC,Surrey,General,Females,Sheena's Place,12,Refuge d'urgence,C.-B.,Général,Femmes
+Emergency,BC,New Westminster,General,Males,Stevenson House,14,Refuge d'urgence,C.-B.,Général,Hommes
+Emergency,BC,New Westminster,Family,Both,Fraserside Emergency Shelter,12,Refuge d'urgence,C.-B.,Familles,Mixtes
+Emergency,BC,Maple Ridge,General,Both,Ridge Meadows Ministries - Temporary Shelter,25,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Vancouver,Family,Both,Vi Fineday Family Shelter,18,Refuge d'urgence,C.-B.,Familles,Mixtes
+Emergency,BC,Vancouver,General,Males,Harbour Light - The Beacon,60,Refuge d'urgence,C.-B.,Général,Hommes
+Emergency,BC,Vancouver,General,Males,Harbour Light - The Haven,40,Refuge d'urgence,C.-B.,Général,Hommes
+Emergency,BC,Vancouver,General,Both,Powell Place Emergency Shelter,52,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Richmond,General,Males,Richmond House Emergency Shelter,10,Refuge d'urgence,C.-B.,Général,Hommes
+Emergency,BC,Vancouver,General,Both,Triage Shelter,28,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Surrey,General,Both,Lookout - Gateway Shelter,40,Refuge d'urgence,C.-B.,Général,Mixtes
+Transitional,BC,Vancouver,General,Females,Anderson Lodge Women Healing Centre,11,Logement de transition,C.-B.,Général,Femmes
+Transitional,BC,Vancouver,General,Females,Aboriginal Mother Centre Society - Transitional,16,Logement de transition,C.-B.,Général,Femmes
+Emergency,BC,Coquitlam,General,Both,3030 Gordon - Emergency ,30,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Squamish,General,Both,Squamish Shelter,15,Refuge d'urgence,C.-B.,Général,Mixtes
+Transitional,BC,Victoria,Youth,Both,Threshold Housing Society,32,Logement de transition,C.-B.,Jeunes,Mixtes
+Transitional,BC,Victoria,Youth,Females,Threshold - Holly House,4,Logement de transition,C.-B.,Jeunes,Femmes
+Transitional,BC,Victoria,Youth,Males,Threshold - Mitchell House,5,Logement de transition,C.-B.,Jeunes,Hommes
+Transitional,BC,Victoria,Youth,Both,Threshold - Threshold House,8,Logement de transition,C.-B.,Jeunes,Mixtes
+Transitional,BC,Victoria,Youth,Both,Threshold - Forrest House,8,Logement de transition,C.-B.,Jeunes,Mixtes
+Emergency,BC,Victoria,General,Females,Sandy Merriman House,25,Refuge d'urgence,C.-B.,Général,Femmes
+Emergency,BC,Victoria,General,Both,Rock Bay Landing (Shelter),84,Refuge d'urgence,C.-B.,Général,Mixtes
+Transitional,BC,Victoria,General,Both,Rock Bay Landing (Transitional),23,Logement de transition,C.-B.,Général,Mixtes
+Emergency,BC,Victoria,Family,Both,Rock Bay Landing (Family Suites),2,Refuge d'urgence,C.-B.,Familles,Mixtes
+Emergency,BC,Victoria,General,Males,Victoria Addictions and Rehabilitation Centre,21,Refuge d'urgence,C.-B.,Général,Hommes
+Emergency,BC,Duncan,General,Both,Warmland House,30,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Nanaimo,General,Males,The Salvation Army Emergency Shelter,24,Refuge d'urgence,C.-B.,Général,Hommes
+Transitional,BC,Nanaimo,General,Males,New Hope Centre Transitional,16,Logement de transition,C.-B.,Général,Hommes
+Emergency,BC,Nanaimo,General,Females,Samaritan House - Emergency,14,Refuge d'urgence,C.-B.,Général,Femmes
+Emergency,BC,Port Alberni,Family,Both,Port Alberni Shelter,23,Refuge d'urgence,C.-B.,Familles,Mixtes
+Emergency,BC,Courtenay,General,Both,Pidcock House,18,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Campbell River,General,Both,Evergreen Crisis Stabilization Beds,22,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Williams Lake,General,Both,Cariboo Friendship Shelter,32,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Quesnel,General,Both,Seasons House,15,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Terrace,General,Both,Ksan Residence and Shelter,21,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Smithers,General,Both,Broadway Place,6,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Prince George,General,Females,AWAC Shelter,30,Refuge d'urgence,C.-B.,Général,Femmes
+Emergency,BC,Prince George,General,Both,Bridget Moran Place,30,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Prince George,General,Males,Ketso Yoh Men's Hostel,21,Refuge d'urgence,C.-B.,Général,Hommes
+Emergency,BC,Dawson Creek,General,Both,Aspen Court Hostel,8,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Fort St. John,General,Both,Fort St. John Shelter,24,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Fort Nelson,General,Males,Father Poullet Shelter,6,Refuge d'urgence,C.-B.,Général,Hommes
+Emergency,BC,Chetwynd,General,Both,Red Lion Inn,3,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Nelson,General,Both,Stepping Stones for Success,17,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,BC,Surrey,General,Both,Hyland House - Emergency Shelter,35,Refuge d'urgence,C.-B.,Général,Mixtes
+Transitional,BC,Surrey,General,Both,Hyland House - Extended Stay,20,Logement de transition,C.-B.,Général,Mixtes
+Emergency,BC,Surrey,General,Both,Lookout - Parkway Shelter,40,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,YT,Whitehorse,General,Both,Emergency Shelter Whitehorse,25,Refuge d'urgence,YT,Général,Mixtes
+Emergency,YT,Whitehorse,Youth,Both,Emergency After Hours Outreach Services Shelter,11,Refuge d'urgence,YT,Jeunes,Mixtes
+Emergency,NT,Yellowknife,Youth,Both,Emergency Shelter ,15,Refuge d'urgence,T.N.-O.,Jeunes,Mixtes
+Transitional,NT,Yellowknife,Youth,Both,Hope's Haven - Youth In Transition,13,Logement de transition,T.N.-O.,Jeunes,Mixtes
+Transitional,NT,Yellowknife,General,Males,The Salvation Army -  Bailey House,32,Logement de transition,T.N.-O.,Général,Hommes
+Emergency,NT,Yellowknife,General,Males,The Salvation Army - Men's Shelter ,49,Refuge d'urgence,T.N.-O.,Général,Hommes
+Transitional,NT,Yellowknife,General,Both,The Salvation Army - Withdrawal Management Services,11,Logement de transition,T.N.-O.,Général,Mixtes
+Emergency,NT,Yellowknife,General,Both,Sobering Centre,18,Refuge d'urgence,T.N.-O.,Général,Mixtes
+Transitional,NT,Yellowknife,General,Females,Lynn's Place,18,Logement de transition,T.N.-O.,Général,Femmes
+Emergency,NU,Iqaluit,General,Males,Uquutaq Men's Shelter,24,Refuge d'urgence,NU,Général,Hommes
+Transitional,NB,Moncton,General,Both,A Home for All,15,Logement de transition,N.-B.,Général,Mixtes
+Emergency,ON,Lindsay,General,Both,A Place Called Home,19,Refuge d'urgence,ON,Général,Mixtes
+Transitional,ON,Niagara-on-the-Lake,General,Females,Abbey House,8,Logement de transition,ON,Général,Femmes
+Emergency,BC,Vancouver,Youth,Both,Aboriginal Safe House,7,Refuge d'urgence,C.-B.,Jeunes,Mixtes
+Emergency,QC,Longueuil,General,Both,Abri de la rive-sud,30,Refuge d'urgence,QC,Général,Mixtes
+Transitional,QC,Montreal,General,Females,Appartements Rosemont,21,Logement de transition,QC,Général,Femmes
+Transitional,QC,Sainte-Adèle,Youth,Both,Accueil Communautaire Jeunesse le Labyrinthe,10,Logement de transition,QC,Jeunes,Mixtes
+Emergency,QC,Joliette,Youth,Both,Accueil Jeunesse,9,Refuge d'urgence,QC,Jeunes,Mixtes
+Emergency,NL,St. John's,General,Both,Al-Abbass Yousef Al- Habashneh,4,Refuge d'urgence,T.-N.,Général,Mixtes
+Transitional,AB,Edmonton,Youth,Both,Cunningham Place,28,Logement de transition,AB,Jeunes,Mixtes
+Emergency,QC,Montreal,General,Females,Auberge Madeleine,26,Refuge d'urgence,QC,Général,Femmes
+Transitional,AB,Edmonton,Youth,Both,Donnelly House,8,Logement de transition,AB,Jeunes,Mixtes
+Transitional,QC,Montreal,Youth,Both,Carrefour communautaire de Rosemont L'Entre-Gens,24,Logement de transition,QC,Jeunes,Mixtes
+Transitional,QC,Montreal,Youth,Both,Dîners-St-Louis,7,Logement de transition,QC,Jeunes,Mixtes
+Emergency,QC,Montreal,Youth,Both,En Marge 12-17 - Emergency,9,Refuge d'urgence,QC,Jeunes,Mixtes
+Transitional,QC,Granby,Youth,Males,Auberge Sous Mon Toit,20,Logement de transition,QC,Jeunes,Hommes
+Emergency,QC,Sherbrooke,Youth,Both,Auberge du Cœur La Source-soleil,9,Refuge d'urgence,QC,Jeunes,Mixtes
+Emergency,QC,Rimouski,Youth,Both,Auberge du Cœur-Le Transit,10,Refuge d'urgence,QC,Jeunes,Mixtes
+Transitional,QC,Montreal,Youth,Both,En Marge 12-17 - Transitional,5,Logement de transition,QC,Jeunes,Mixtes
+Transitional,QC,Montreal,Youth,Both,Foyer des jeunes travailleurs et travailleuses de Montréal,5,Logement de transition,QC,Jeunes,Mixtes
+Transitional,QC,Campbell's Bay,General,Males,AutonHomme,24,Logement de transition,QC,Général,Hommes
+Emergency,QC,Trois-Rivières,Youth,Both,Autonomie Jeunesse,11,Refuge d'urgence,QC,Jeunes,Mixtes
+Transitional,QC,Montreal,General,Females,L'Arrêt-source,19,Logement de transition,QC,Général,Femmes
+Emergency,ON,Barrie,Family,Both,Barrie Bayside Mission - Family ,36,Refuge d'urgence,ON,Familles,Mixtes
+Transitional,ON,Barrie,General,Males,Barrie Bayside Mission - Transitional ,10,Logement de transition,ON,Général,Hommes
+Transitional,SK,Saskatoon,Youth,Males,Basswood House,5,Logement de transition,SK,Jeunes,Hommes
+Emergency,NL,St. John's,General,Both,Ben Said Housing,13,Refuge d'urgence,T.-N.,Général,Mixtes
+Transitional,SK,Saskatoon,Youth,Males,Bert's Place,7,Logement de transition,SK,Jeunes,Hommes
+Transitional,ON,St. Catharines,Family,Both,Bethlehem Place,65,Logement de transition,ON,Familles,Mixtes
+Emergency,ON,Barrie,General,Both,Bii'nbaan Endaayaang,20,Refuge d'urgence,ON,Général,Mixtes
+Transitional,ON,Windsor,General,Both,Biimskiinodin Transitional House,7,Logement de transition,ON,Général,Mixtes
+Transitional,BC,Surrey,General,Both,Bill Reid Place - transitional,12,Logement de transition,C.-B.,Général,Mixtes
+Emergency,BC,Surrey,General,Both,Bill Reid Place,16,Refuge d'urgence,C.-B.,Général,Mixtes
+Transitional,AB,Edmonton,Youth,Both,E4C Crossroads House,15,Logement de transition,AB,Jeunes,Mixtes
+Transitional,AB,Edmonton,General,Males,George Spady Pod,6,Logement de transition,AB,Général,Hommes
+Transitional,AB,Edmonton,Youth,Both,Graham's Place,8,Logement de transition,AB,Jeunes,Mixtes
+Transitional,AB,Edmonton,General,Males,Hope Mission - Herb Jamieson Centre transitional,69,Logement de transition,AB,Général,Hommes
+Transitional,ON,Burlington,Youth,Both,Bridge House,3,Logement de transition,ON,Jeunes,Mixtes
+Transitional,QC,Longueuil,General,Males,C.A.S.A. Bernard-Hubert - Le Relais,41,Logement de transition,QC,Général,Hommes
+Emergency,AB,Edmonton,General,Males,Hope Mission - Intox,70,Refuge d'urgence,AB,Général,Hommes
+Transitional,QC,Montreal,General,Females,L'Habitation Pelletier,21,Logement de transition,QC,Général,Femmes
+Transitional,SK,Regina,Youth,Both,CHAZ Court,8,Logement de transition,SK,Jeunes,Mixtes
+Transitional,QC,Saint-Jérôme,General,Both,CRC Curé-Labelle,3,Logement de transition,QC,Général,Mixtes
+Transitional,ON,Peterborough,General,Females,Cameron House Semi Independent Living Program,8,Logement de transition,ON,Général,Femmes
+Emergency,AB,Edmonton,General,Both,Hope Mission - Mat Program,200,Refuge d'urgence,AB,Général,Mixtes
+Emergency,QC,Montreal,General,Females,La Maison Marguerite de Montréal - Emergency,18,Refuge d'urgence,QC,Général,Femmes
+Transitional,ON,Belleville,General,Both,Casa Tres,5,Logement de transition,ON,Général,Mixtes
+Transitional,SK,Saskatoon,Youth,Males,Cedar House,5,Logement de transition,SK,Jeunes,Hommes
+Emergency,QC,Pointe-à-la-Croix,General,Both,Centre Accalmie,7,Refuge d'urgence,QC,Général,Mixtes
+Transitional,QC,Fort Coulonge,General,Both,Centre Intervalle Pontiac,16,Logement de transition,QC,Général,Mixtes
+Emergency,QC,Trois-Rivières,General,Both,Centre Le Havre,22,Refuge d'urgence,QC,Général,Mixtes
+Transitional,QC,La Baie,General,Both,Centre Le Phare - La Maison Blanche,4,Logement de transition,QC,Général,Mixtes
+Transitional,QC,Quebec City,Youth,Both,Centre Multi-services 16-30 ans La Source,3,Logement de transition,QC,Jeunes,Mixtes
+Transitional,QC,Grand-Mère,General,Both,Centre d'Entraide Aux Rayons du soleil,15,Logement de transition,QC,Général,Mixtes
+Emergency,QC,Shawinigan,General,Both,Centre d'hébergement Le Hamac,8,Refuge d'urgence,QC,Général,Mixtes
+Transitional,QC,Chicoutimi,General,Both,Centre de Rencontre L'Escale,1,Logement de transition,QC,Général,Mixtes
+Emergency,QC,Alma,General,Both,Centre de rétablissement Le Renfort - urgence,8,Refuge d'urgence,QC,Général,Mixtes
+Transitional,QC,Salaberry-de-Valleyfield,General,Both,Centre de transition en itinérance du Suroît,8,Logement de transition,QC,Général,Mixtes
+Emergency,ON,London,General,Females,Centre of Hope Emergency Female,10,Refuge d'urgence,ON,Général,Femmes
+Emergency,ON,London,General,Males,Centre of Hope Emergency Male,87,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,London,Youth,Both,Centre of Hope Emergency Youth,36,Refuge d'urgence,ON,Jeunes,Mixtes
+Transitional,ON,London,General,Both,Centre of Hope Transitional,92,Logement de transition,ON,Général,Mixtes
+Transitional,QC,Quebec City,General,Both,Centre résidentiel et communautaire Jacques-Cartier,27,Logement de transition,QC,Général,Mixtes
+Emergency,ON,Chatham,General,Males,Chatham Hope Haven,10,Refuge d'urgence,ON,Général,Hommes
+Transitional,QC,Rawdon,Youth,Both,Chaumière Jeunesse,9,Logement de transition,QC,Jeunes,Mixtes
+Transitional,ON,Burlington,Youth,Both,Children Aid Society of Halton ,13,Logement de transition,ON,Jeunes,Mixtes
+Emergency,SK,Saskatoon,Youth,Both,Children's Home,10,Refuge d'urgence,SK,Jeunes,Mixtes
+Emergency,NL,St. John's,General,Both,Connection for Seniors,8,Refuge d'urgence,T.-N.,Général,Mixtes
+Transitional,QC,Saint-Hyacinthe,General,Both,Contact Richelieu Yamaska projet La maisonnée,9,Logement de transition,QC,Général,Mixtes
+Transitional,ON,Oshawa,General,Males,Cornerstone - Transitional,10,Logement de transition,ON,Général,Hommes
+Transitional,QC,Quebec City,General,Females,Corporation Inter-Elles,20,Logement de transition,QC,Général,Femmes
+Transitional,ON,Orillia,General,Females,Couchiching Jubilee House,12,Logement de transition,ON,Général,Femmes
+Emergency,AB,Edmonton,General,Females,Hope Mission - Women's Emergency Shelter,70,Refuge d'urgence,AB,Général,Femmes
+Emergency,BC,Abbotsford,Youth,Both,Cyrus Centre: Emergency Youth Shelter,6,Refuge d'urgence,C.-B.,Jeunes,Mixtes
+Transitional,QC,Montreal,General,Females,La Maison Marguerite de Montréal - Transitional,36,Logement de transition,QC,Général,Femmes
+Transitional,ON,Pelham,Youth,Males,David S Horne,8,Logement de transition,ON,Jeunes,Hommes
+Transitional,NS,Halifax,General,Females,Diverting Families from Shelter to Housing,8,Logement de transition,N.-É.,Général,Femmes
+Emergency,AB,Edmonton,Youth,Males,Hope Mission - Youth Shelter,60,Refuge d'urgence,AB,Jeunes,Hommes
+Emergency,SK,Regina,Youth,Both,Downtown Brownes Youth Emergency Shelter,15,Refuge d'urgence,SK,Jeunes,Mixtes
+Emergency,QC,Montreal,General,Females,Le Chaînon,33,Refuge d'urgence,QC,Général,Femmes
+Transitional,AB,Edmonton,General,Both,Inner Way (Bears Den & Beavers Den),10,Logement de transition,AB,Général,Mixtes
+Transitional,SK,Saskatoon,General,Females,EGADZ Mah's Place,7,Logement de transition,SK,Général,Femmes
+Emergency,ON,Niagara Falls,Family,Both,Emergency Bed Program,15,Refuge d'urgence,ON,Familles,Mixtes
+Emergency,ON,Niagara Falls,General,Males,Emergency Homeless Shelter for Men,15,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Sarnia,Family,Both,Emergency Shelter Program - Family,3,Refuge d'urgence,ON,Familles,Mixtes
+Emergency,ON,Sarnia,General,Both,Emergency Shelter Program,24,Refuge d'urgence,ON,Général,Mixtes
+Emergency,BC,Chilliwack,Youth,Both,Emergency Youth Shelter - Chilliwack,9,Refuge d'urgence,C.-B.,Jeunes,Mixtes
+Transitional,AB,Edmonton,Youth,Both,Inner Ways Emerging Adults (Kineto House),5,Logement de transition,AB,Jeunes,Mixtes
+Transitional,QC,Montreal,Family,Both,Logis Phare,7,Logement de transition,QC,Familles,Mixtes
+Emergency,QC,Montreal,General,Females,Maison Olga - Emergency,3,Refuge d'urgence,QC,Général,Femmes
+Transitional,QC,Cowansville,General,Both,Entrée chez soi,55,Logement de transition,QC,Général,Mixtes
+Transitional,QC,Lévis,General,Females,Espace Mélilot,45,Logement de transition,QC,Général,Femmes
+Transitional,QC,Cowansville,Youth,Both,Espace Vivant / Living Room,8,Logement de transition,QC,Jeunes,Mixtes
+Emergency,ON,Niagara Falls,Family,Both,Family Emergency Homeless Shelter Initiative,18,Refuge d'urgence,ON,Familles,Mixtes
+Transitional,AB,Edmonton,General,Females,Inner Ways Women's House (Buffalo Home),10,Logement de transition,AB,Général,Femmes
+Transitional,BC,Fort St. John,General,Both,Fort St. John Care and Share Centre Transitional,12,Logement de transition,C.-B.,Général,Mixtes
+Transitional,QC,Montreal,General,Females,Maison Olga - Transitional,20,Logement de transition,QC,Général,Femmes
+Emergency,NL,St. John's,General,Both,Fresh Start,8,Refuge d'urgence,T.-N.,Général,Mixtes
+Emergency,BC,Nanaimo ,Youth,Both,Friendship Lelum Youth Safe House,8,Refuge d'urgence,C.-B.,Jeunes,Mixtes
+Transitional,ON,North Bay,Youth,Both,Future's Youth Program,10,Logement de transition,ON,Jeunes,Mixtes
+Transitional,SK,Regina,Youth,Males,GLInn (Gretta Lynn’s Inn),7,Logement de transition,SK,Jeunes,Hommes
+Emergency,ON,Cochrane,General,Males,Ga Beh Shoo In Men's Shelter ,6,Refuge d'urgence,ON,Général,Hommes
+Transitional,AB,Edmonton,Youth,Both,Kokum's House,8,Logement de transition,AB,Jeunes,Mixtes
+Transitional,BC,Vancouver,General,Both,Grace Mansion,84,Logement de transition,C.-B.,Général,Mixtes
+Transitional,AB,Edmonton,Youth,Both,Meschakanis Lodge,6,Logement de transition,AB,Jeunes,Mixtes
+Transitional,AB,Edmonton,Youth,Both,Nova,20,Logement de transition,AB,Jeunes,Mixtes
+Emergency,QC,Quebec City,Youth,Males,Gîte Jeunesse (Résidence Beauport),9,Refuge d'urgence,QC,Jeunes,Hommes
+Emergency,QC,Quebec City,Youth,Males,Gîte Jeunesse (Résidence Sainte-Foy),6,Refuge d'urgence,QC,Jeunes,Hommes
+Transitional,QC,Drummondville,Youth,Both,Habit-Action - appartements supervisés,2,Logement de transition,QC,Jeunes,Mixtes
+Emergency,QC,Drummondville,Youth,Both,Habit-Action,9,Refuge d'urgence,QC,Jeunes,Mixtes
+Transitional,ON,Oakville,Family,Both,Halton Multicultural Council,23,Logement de transition,ON,Familles,Mixtes
+Transitional,BC,Vancouver,General,Males,Hastings House,82,Logement de transition,C.-B.,Général,Hommes
+Transitional,ON,Collingwood,Youth,Both,Home Horizon - Barbara Weider House,10,Logement de transition,ON,Jeunes,Mixtes
+Transitional,AB,Edmonton,General,Both,Orenda House,10,Logement de transition,AB,Général,Mixtes
+Emergency,AB,Edmonton,Youth,Females,Safe House - Catholic Social Services,7,Refuge d'urgence,AB,Jeunes,Femmes
+Transitional,AB,Edmonton,General,Females,Salvation Army - Cornerstone,20,Logement de transition,AB,Général,Femmes
+Transitional,AB,Edmonton,Youth,Both,Shanoa's Place,8,Logement de transition,AB,Jeunes,Mixtes
+Transitional,AB,Edmonton,General,Females,St. Katharine Drexel Place,30,Logement de transition,AB,Général,Femmes
+Transitional,BC,Surrey,General,Both,Hyland House - Transitional,20,Logement de transition,C.-B.,Général,Mixtes
+Emergency,QC,Gatineau,Youth,Both,Héberge-Ados (de l'Avenue des Jeunes),8,Refuge d'urgence,QC,Jeunes,Mixtes
+Emergency,QC,Saint-Jérôme,General,Both,Hébergement Fleur de Macadam,9,Refuge d'urgence,QC,Général,Mixtes
+Transitional,QC,Longueuil,Youth,Both,Hébergement Maison de la Paix inc.,11,Logement de transition,QC,Jeunes,Mixtes
+Emergency,QC,Terrebonne,General,Both,Hébergement d'urgence Lanaudière à Terrebonne,29,Refuge d'urgence,QC,Général,Mixtes
+Emergency,QC,Joliette,General,Both,Hébergement d'urgence Lanaudière,7,Refuge d'urgence,QC,Général,Mixtes
+Emergency,QC,Montreal,General,Females,"Passages, Ressource d'hébergement de Montréal",16,Refuge d'urgence,QC,Général,Femmes
+Emergency,QC,Montreal,General,Both,Projets Autochtones du Québec,48,Refuge d'urgence,QC,Général,Mixtes
+Emergency,QC,Montreal,Youth,Both,Ressources jeunesse de St-Laurent - Emergency,11,Refuge d'urgence,QC,Jeunes,Mixtes
+Transitional,QC,Quebec City,General,Males,Hôtellerie pour Hommes de l'Armée du Salut,60,Logement de transition,QC,Général,Hommes
+Emergency,ON,Kingston,General,Females,In From the Cold (women),6,Refuge d'urgence,ON,Général,Femmes
+Emergency,ON,Kingston,General,Both,In From the Cold,29,Refuge d'urgence,ON,Général,Mixtes
+Transitional,AB,Edmonton,Youth,Males,The Loft,6,Logement de transition,AB,Jeunes,Hommes
+Transitional,AB,Edmonton,General,Females,Valeda House,12,Logement de transition,AB,Général,Femmes
+Emergency,AB,Edmonton,Youth,Both,Youth Emergency Shelter Edmonton,24,Refuge d'urgence,AB,Jeunes,Mixtes
+Transitional,SK,Saskatoon,Youth,Males,Jay's Place,5,Logement de transition,SK,Jeunes,Hommes
+Transitional,NL,St. John's,General,Females,Jess's Place,3,Logement de transition,T.-N.,Général,Femmes
+Emergency,AB,Fort McMurray,General,Both,Marshall House Emergency,84,Refuge d'urgence,AB,Général,Mixtes
+Transitional,ON,Thunder Bay,General,Both,John Howard Society of Thunder Bay - Transitional,47,Logement de transition,ON,Général,Mixtes
+Transitional,ON,Barrie ,General,Females,Joyce Kope House - Transitional ,9,Logement de transition,ON,Général,Femmes
+Emergency,BC,Kelowna,Youth,Both,Kelowna Youth Shelter - Richter Street Overnight Program,10,Refuge d'urgence,C.-B.,Jeunes,Mixtes
+Emergency,ON,Kenora,General,Both,Kenora Emergency Shelter,18,Refuge d'urgence,ON,Général,Mixtes
+Transitional,ON,Kenora,General,Both,Kenora Fellowship Center - Transitional,11,Logement de transition,ON,Général,Mixtes
+Transitional,AB,Fort McMurray,General,Both,Carla and David's House,7,Logement de transition,AB,Général,Mixtes
+Emergency,ON,Kingston,Youth,Both,Kingston Youth Shelter Project,15,Refuge d'urgence,ON,Jeunes,Mixtes
+Transitional,ON,Kingston,Youth,Both,Kingston Youth Transitions-Elmwood,6,Logement de transition,ON,Jeunes,Mixtes
+Transitional,ON,Kingston,Youth,Both,Kingston Youth Transitions-Yonge,5,Logement de transition,ON,Jeunes,Mixtes
+Emergency,AB,Fort McMurray,General,Both,Fort McMurray Mat Program,35,Refuge d'urgence,AB,Général,Mixtes
+Emergency,AB,Fort McMurray,General,Males,Salvation Army - Men's Emergency Shelter,32,Refuge d'urgence,AB,Général,Hommes
+Emergency,QC,Lévis,Youth,Both,L'ADOberge Chaudière-Appalaches,6,Refuge d'urgence,QC,Jeunes,Mixtes
+Transitional,QC,Montreal,Youth,Both,Ressources jeunesse de St-Laurent - Transitional,34,Logement de transition,QC,Jeunes,Mixtes
+Emergency,QC,Montreal,Youth,Both,The Bunker,17,Refuge d'urgence,QC,Jeunes,Mixtes
+Transitional,QC,Montreal,General,Females,Y des femmes,34,Logement de transition,QC,Général,Femmes
+Transitional,QC,Saint-Eustache,Youth,Both,L'Accueil,9,Logement de transition,QC,Jeunes,Mixtes
+Emergency,QC,Salaberry-de-Valleyfield,Youth,Both,L'Anti-chambre 12-17 - hébergment jeunesse Suroît,9,Refuge d'urgence,QC,Jeunes,Mixtes
+Emergency,QC,Longueuil,Youth,Both,L'Antre Temps,14,Refuge d'urgence,QC,Jeunes,Mixtes
+Transitional,QC,Rimouski,Youth,Both,L'Antre-D'Eux,4,Logement de transition,QC,Jeunes,Mixtes
+Emergency,QC,Gatineau,Youth,Both,L'Appart Adojeune,6,Refuge d'urgence,QC,Jeunes,Mixtes
+Emergency,QC,Quebec City,General,Both,L'Archipel d'Entraide Accroche-Toît,23,Refuge d'urgence,QC,Général,Mixtes
+Transitional,QC,Quebec City,General,Males,L'Armée du Salut - Hotellerie,53,Logement de transition,QC,Général,Hommes
+Transitional,QC,Montreal,General,Both,Accueil Bonneau (Maisons Claire Ménard) et Projet PRISM,19,Logement de transition,QC,Général,Mixtes
+Transitional,QC,Montreal,General,Males,Armée du Salut - Centre Booth - Le Gouvernail,20,Logement de transition,QC,Général,Hommes
+Transitional,QC,Montreal,General,Both,L'Aviron -transitional,30,Logement de transition,QC,Général,Mixtes
+Transitional,QC,Montreal,General,Males,Armée du Salut - Centre Booth - Le Rivage,26,Logement de transition,QC,Général,Hommes
+Transitional,QC,Laval,Youth,Both,L'Envolée - appartements,2,Logement de transition,QC,Jeunes,Mixtes
+Emergency,QC,Laval,Youth,Both,L'Envolée,16,Refuge d'urgence,QC,Jeunes,Mixtes
+Transitional,QC,Montreal,Youth,Males,Auberge du coeur Le Tournant,10,Logement de transition,QC,Jeunes,Hommes
+Transitional,QC,Mascouche,Youth,Both,L'appartenance,5,Logement de transition,QC,Jeunes,Mixtes
+Transitional,AB,Fort McMurray,Youth,Both,Stepping Stones Youth Home,8,Logement de transition,AB,Jeunes,Mixtes
+Transitional,QC,Longueuil,General,Males,La Casa Bernard-Hubert,20,Logement de transition,QC,Général,Hommes
+Transitional,QC,Longueuil,General,Females,La Chaumière,22,Logement de transition,QC,Général,Femmes
+Transitional,QC,Montreal,Youth,Both,Auberge du coeur Les Habitations De L'Escalier,20,Logement de transition,QC,Jeunes,Mixtes
+Emergency,QC,Quebec City,Youth,Both,La Dauphine,9,Refuge d'urgence,QC,Jeunes,Mixtes
+Transitional,QC,Montmagny,General,Both,La Frontière,20,Logement de transition,QC,Général,Mixtes
+Transitional,QC,Montreal,Youth,Both,Avenue (L') - Auberge du cœur,12,Logement de transition,QC,Jeunes,Mixtes
+Emergency,QC,Montreal,General,Both,CAP Saint-Barnabé - Carrefour d’Alimentation et de Partage - Refuge,21,Refuge d'urgence,QC,Général,Mixtes
+Transitional,QC,Montreal,Youth,Both,Dans la Rue - Les Appartements,15,Logement de transition,QC,Jeunes,Mixtes
+Transitional,QC,Roxton Falls,General,Males,La Petite ferme de l'auberge,10,Logement de transition,QC,Général,Hommes
+Emergency,QC,Val D'or,General,Both,La Piaule de Val-d'Or,28,Refuge d'urgence,QC,Général,Mixtes
+Transitional,QC,Montreal,General,Males,Hébergement pour hommes en détresse,4,Logement de transition,QC,Général,Hommes
+Transitional,QC,Bécancour,General,Both,La chrysalide Maison d'hébergement communautaire en santé mentale,10,Logement de transition,QC,Général,Mixtes
+Emergency,QC,Rivière-du-Loup,General,Both,La maison d'Hébergement la Bouffée d'Air du KRTB,9,Refuge d'urgence,QC,Général,Mixtes
+Emergency,AB,Grande Prairie,Youth,Both,Sunrise House,10,Refuge d'urgence,AB,Jeunes,Mixtes
+Transitional,QC,Saint-Hyacinthe,Youth,Both,Le Baluchon - Bail-Bye,15,Logement de transition,QC,Jeunes,Mixtes
+Emergency,QC,Saint-Hyacinthe,Youth,Both,Le Baluchon,9,Refuge d'urgence,QC,Jeunes,Mixtes
+Transitional,QC,Gatineau,Youth,Both,Le Belvédère,16,Logement de transition,QC,Jeunes,Mixtes
+Transitional,QC,Montreal,Youth,Both,Héberjeune de Parc-Extension - Jeunes mères,7,Logement de transition,QC,Jeunes,Mixtes
+Transitional,QC,Pontiac,Family,Both,Le Centre Kogaluc,22,Logement de transition,QC,Familles,Mixtes
+Transitional,QC,Montreal,Youth,Both,Héberjeune de Parc-Extension,21,Logement de transition,QC,Jeunes,Mixtes
+Transitional,QC,Montreal,General,Females,L'Abri d'espoir de l'Armée du Salut - Logement de transition,12,Logement de transition,QC,Général,Femmes
+Transitional,QC,Trois-Rivières,General,Both,Le Chez Soi,8,Logement de transition,QC,Général,Mixtes
+Emergency,QC,Mascouche,Youth,Both,Le Diapason,9,Refuge d'urgence,QC,Jeunes,Mixtes
+Transitional,QC,Longueuil,Youth,Males,Le Halo,8,Logement de transition,QC,Jeunes,Hommes
+Transitional,QC,Rivière-du-Loup,Youth,Both,Le Pont-LeVis,3,Logement de transition,QC,Jeunes,Mixtes
+Emergency,QC,Saint-Eustache,Youth,Both,Le Préfixe,6,Refuge d'urgence,QC,Jeunes,Mixtes
+Emergency,QC,Saint-Eustache,General,Both,Le Répit,6,Refuge d'urgence,QC,Général,Mixtes
+Transitional,QC,Chicoutimi,General,Females,Le Séjour Marie-Fitzbach,9,Logement de transition,QC,Général,Femmes
+Transitional,QC,Saint-Eustache,Youth,Both,Le Transit,3,Logement de transition,QC,Jeunes,Mixtes
+Transitional,QC,Sherbrooke,Youth,Both,Le Tremplin 16-30 de Sherbrooke,23,Logement de transition,QC,Jeunes,Mixtes
+Transitional,QC,Montmagny,General,Both,"Le trait d'Union, incluant Maison Rotary",30,Logement de transition,QC,Général,Mixtes
+Emergency,NL,St. John's,General,Both,Leonard Clarke,12,Refuge d'urgence,T.-N.,Général,Mixtes
+Emergency,NL,St. John's,General,Both,Leonard Phair,25,Refuge d'urgence,T.-N.,Général,Mixtes
+Emergency,QC,Montreal,General,Females,L'Abri d'espoir de l'Armée du Salut - Refuge d'urgence,30,Refuge d'urgence,QC,Général,Femmes
+Transitional,QC,Quebec City,Youth,Males,Les Oeuvres Jean-Lafrance,9,Logement de transition,QC,Jeunes,Hommes
+Transitional,QC,Ormstown,General,Both,Les habitations des Tisserands,27,Logement de transition,QC,Général,Mixtes
+Emergency,ON,Kingston,Family,Both,Lily's Place,19,Refuge d'urgence,ON,Familles,Mixtes
+Transitional,QC,Montreal,General,Females,L'Abri d'espoir de l'Armée du Salut - family program,16,Logement de transition,QC,Général,Femmes
+Transitional,QC,Montreal,Youth,Both,L'Auberge communautaire du sud-ouest,20,Logement de transition,QC,Jeunes,Mixtes
+Transitional,SK,Saskatoon,General,Males,Long term residents,5,Logement de transition,SK,Général,Hommes
+Emergency,AB,Grande Prairie,General,Both,Rotary House,96,Refuge d'urgence,AB,Général,Mixtes
+Transitional,SK,Regina,Youth,Both,Lulu's Lodge,5,Logement de transition,SK,Jeunes,Mixtes
+Transitional,BC,Vancouver,General,Both,Lux Transitional Housing Program,25,Logement de transition,C.-B.,Général,Mixtes
+Transitional,MB,Winnipeg,General,Both,TSA Transitional Shelter,175,Logement de transition,MB,Général,Mixtes
+Transitional,MB,Brandon,Youth,Both,YFC - UTurn,10,Logement de transition,MB,Jeunes,Mixtes
+Emergency,QC,Montreal,General,Both,L'Aviron -urgence,6,Refuge d'urgence,QC,Général,Mixtes
+Transitional,QC,Montreal,General,Both,La Chrysalide,9,Logement de transition,QC,Général,Mixtes
+Emergency,QC,Sherbrooke,Youth,Both,Maison Jeunes-Est,8,Refuge d'urgence,QC,Jeunes,Mixtes
+Transitional,QC,Saint-Hyacinthe,Youth,Both,Maison Le Baluchon,15,Logement de transition,QC,Jeunes,Mixtes
+Transitional,QC,Quebec City,Youth,Both,Maison Marie-Frédéric,25,Logement de transition,QC,Jeunes,Mixtes
+Transitional,QC,Montreal,Youth,Both,La Maison Tangente,14,Logement de transition,QC,Jeunes,Mixtes
+Emergency,QC,Montreal,General,Females,La Rue des femmes de Montreal /Herstreet,10,Refuge d'urgence,QC,Général,Femmes
+Emergency,QC,Montreal,General,Males,Le Centre Booth de l'Armée du Salut,207,Refuge d'urgence,QC,Général,Hommes
+Transitional,QC,Montreal,General,Females,Le Chaînon - Logement,15,Logement de transition,QC,Général,Femmes
+Transitional,QC,Victoriaville,Youth,Both,Maison Raymond Roy,9,Logement de transition,QC,Jeunes,Mixtes
+Transitional,QC,Montreal,General,Females,Les Maisons de l'Ancre,12,Logement de transition,QC,Général,Femmes
+Emergency,QC,Quebec City,General,Both,Maison Revivre,29,Refuge d'urgence,QC,Général,Mixtes
+Emergency,QC,Quebec City,Youth,Females,"Maison Richelieu, Hébergement jeunesse",9,Refuge d'urgence,QC,Jeunes,Femmes
+Emergency,QC,Fermont,General,Both,Maison d'Aide et d'Hébergement de Fermont - urgence,6,Refuge d'urgence,QC,Général,Mixtes
+Emergency,QC,Chicoutimi,General,Both,Maison d'Hébergement Le Séjour Inc.,3,Refuge d'urgence,QC,Général,Mixtes
+Emergency,QC,Chicoutimi,General,Males,Maison d'accueil pour sans-abri de Chicoutimi,25,Refuge d'urgence,QC,Général,Hommes
+Emergency,QC,Salaberry-de-Valleyfield,General,Both,Maison d'hébergement dépannage de Valleyfield,20,Refuge d'urgence,QC,Général,Mixtes
+Transitional,QC,Granby,General,Males,Maison d'hébergement pour personnes en difficulté Le Passant,26,Logement de transition,QC,Général,Hommes
+Emergency,QC,Quebec City,General,Females,Maison de Lauberiviere (Femmes),12,Refuge d'urgence,QC,Général,Femmes
+Emergency,QC,Quebec City,General,Males,Maison de Lauberivière (Hommes),39,Refuge d'urgence,QC,Général,Hommes
+Transitional,QC,Montreal,General,Females,Logifem Inc,20,Logement de transition,QC,Général,Femmes
+Transitional,QC,Montreal,General,Females,Maison Dalhia,12,Logement de transition,QC,Général,Femmes
+Transitional,QC,Montreal,General,Both,Maison Dominique,9,Logement de transition,QC,Général,Mixtes
+Transitional,QC,Montreal,Youth,Both,Maison Odyssée,12,Logement de transition,QC,Jeunes,Mixtes
+Emergency,QC,Montreal,Family,Males,Maison Oxygène Claude-Hardy,7,Refuge d'urgence,QC,Familles,Hommes
+Emergency,QC,Rouyn-Noranda,General,Both,Maison du Soleil Levant,15,Refuge d'urgence,QC,Général,Mixtes
+Transitional,QC,Montreal,General,Males,Maison du Père - Maison Wolf,57,Logement de transition,QC,Général,Hommes
+Transitional,BC,Vancouver,Youth,Both,Marc's Place,3,Logement de transition,C.-B.,Jeunes,Mixtes
+Transitional,AB,Grande Prairie,General,Both,Rotary House - Transitional,32,Logement de transition,AB,Général,Mixtes
+Transitional,ON,London,General,Males,Men's Mission and Rehabilitation Centre-Transitional Beds,35,Logement de transition,ON,Général,Hommes
+Emergency,ON,London,General,Males,Men's Mission and Rehabilitation Centre,111,Refuge d'urgence,ON,Général,Hommes
+Transitional,AB,Grande Prairie,Youth,Both,Youth House,5,Logement de transition,AB,Jeunes,Mixtes
+Transitional,SK,Prince Albert,General,Females,Metis Women Association,8,Logement de transition,SK,Général,Femmes
+Transitional,ON,Milton,Family,Both,Milton Transitional Housing ,16,Logement de transition,ON,Familles,Mixtes
+Emergency,ON,London,General,Both,Mission Services Crash Beds,21,Refuge d'urgence,ON,Général,Mixtes
+Transitional,AB,Gunn,General,Males,Gunn Centre,75,Logement de transition,AB,Général,Hommes
+Emergency,BC,Chilliwack,General,Both,Modular Shelter,48,Refuge d'urgence,C.-B.,Général,Mixtes
+Transitional,QC,Gatineau,General,Both,Mon Chez Nous,63,Logement de transition,QC,Général,Mixtes
+Emergency,AB,Lac La Biche,General,Males,Lakeland Out Of The Elements Shelter,9,Refuge d'urgence,AB,Général,Hommes
+Transitional,QC,Montreal,General,Males,Maison du Père - Transit,187,Logement de transition,QC,Général,Hommes
+Transitional,QC,Quebec City,General,Females,Mères et monde Centre communautaire et résidentiel par et pour jeunes mères,23,Logement de transition,QC,Général,Femmes
+Emergency,NB,Saint John,Youth,Both,Safe Harbour House,8,Refuge d'urgence,N.-B.,Jeunes,Mixtes
+Transitional,NS,New Glasgow,Youth,Females,PC Roots for Youth - Female Transition House,3,Logement de transition,N.-É.,Jeunes,Femmes
+Emergency,NS,Halifax,General,Males,The Salvation Army - Halifax Booth Centre,46,Refuge d'urgence,N.-É.,Général,Hommes
+Emergency,NS,Truro,General,Both,Truro Homeless Outreach Society,16,Refuge d'urgence,N.-É.,Général,Mixtes
+Emergency,NS,New Glasgow,General,Both,Viola's Place,9,Refuge d'urgence,N.-É.,Général,Mixtes
+Transitional,NS,Halifax,General,Females,Adsum Centre,4,Logement de transition,N.-É.,Général,Femmes
+Emergency,ON,Hamilton,General,Females,Native Women's Centre,16,Refuge d'urgence,ON,Général,Femmes
+Emergency,NL,Natuashish,Youth,Females,Natuashish Safe House - Youth shelter,3,Refuge d'urgence,T.-N.,Jeunes,Femmes
+Transitional,MB,Winnipeg,Youth,Both,Ndinawe Transitional Home,12,Logement de transition,MB,Jeunes,Mixtes
+Transitional,SK,Prince Albert,General,Males,New Apostolic Church,14,Logement de transition,SK,Général,Hommes
+Transitional,ON,Brampton,General,Males,New Leaf Program,18,Logement de transition,ON,Général,Hommes
+Emergency,BC,Vancouver,Youth,Both,North Shore Youth Safe House,6,Refuge d'urgence,C.-B.,Jeunes,Mixtes
+Emergency,AB,Lethbridge,General,Both,Lethbridge Shelter and Resource Centre,80,Refuge d'urgence,AB,Général,Mixtes
+Emergency,QC,Montreal,General,Males,Maison du Père - convalescence,8,Refuge d'urgence,QC,Général,Hommes
+Emergency,QC,Montreal,General,Males,Maison du Père - soins palliatifs,2,Refuge d'urgence,QC,Général,Hommes
+Transitional,QC,Montreal,General,Males,Maison du Père- transition,52,Logement de transition,QC,Général,Hommes
+Transitional,QC,Montreal,General,Both,Maison l'Éclaircie de Montreal,10,Logement de transition,QC,Général,Mixtes
+Emergency,ON,Thunder Bay,General,Males,HSC - Salvation Army,16,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Sault Ste. Marie,Family,Both,Pauline's Place Non-Profit Homes Inc.,25,Refuge d'urgence,ON,Familles,Mixtes
+Emergency,ON,Barrie,General,Females,Joyce Kope House - Emergency ,18,Refuge d'urgence,ON,Général,Femmes
+Emergency,ON,Orillia,General,Males,Emergency Shelter for Men,14,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Barrie,General,Males,Barrie Bayside Mission - Emergency,28,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Barrie,Youth,Both,Youth Haven,17,Refuge d'urgence,ON,Jeunes,Mixtes
+Transitional,ON,Orillia,General,Females,Biminaawzogin Transitional Housing,6,Logement de transition,ON,Général,Femmes
+Emergency,ON,Midland,General,Both,The Guesthouse Shelter,18,Refuge d'urgence,ON,Général,Mixtes
+Emergency,ON,Guelph,General,Both,Supportive Recovery Room,5,Refuge d'urgence,ON,Général,Mixtes
+Emergency,ON,North Bay,General,Females,Ojibway Women's Lodge,10,Refuge d'urgence,ON,Général,Femmes
+Transitional,AB,Lethbridge,General,Females,Blackfoot Family Lodge,15,Logement de transition,AB,Général,Femmes
+Emergency,SK,Saskatoon,Youth,Both,Oskayak Wikiwaw,8,Refuge d'urgence,SK,Jeunes,Mixtes
+Transitional,ON,Belleville,General,Both,Our House 2,5,Logement de transition,ON,Général,Mixtes
+Transitional,ON,Belleville,General,Both,Our House,10,Logement de transition,ON,Général,Mixtes
+Emergency,BC,Vernon,General,Both,Our Place,46,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,ON,Sioux Lookout,General,Both,Out of the Cold - Sioux Lookout,26,Refuge d'urgence,ON,Général,Mixtes
+Emergency,NL,Happy Valley-Goose Bay,General,Both,Out of the Cold,8,Refuge d'urgence,T.-N.,Général,Mixtes
+Transitional,QC,Montreal,Family,Both,Maison Élizabeth,50,Logement de transition,QC,Familles,Mixtes
+Transitional,QC,Montreal,General,Females,Mères avec pouvoir - MAP Montreal,46,Logement de transition,QC,Général,Femmes
+Transitional,QC,Montreal,General,Males,OBM - Maison Roger Beaulieu,14,Logement de transition,QC,Général,Hommes
+Emergency,AB,Lethbridge,Youth,Both,Emergency Youth Shelter,8,Refuge d'urgence,AB,Jeunes,Mixtes
+Transitional,QC,Ste-Thérèse,Youth,Both,Petit Patro,13,Logement de transition,QC,Jeunes,Mixtes
+Transitional,NS,Halifax,Youth,Both,Phoenix Supportive Housing,30,Logement de transition,N.-É.,Jeunes,Mixtes
+Transitional,AB,Lethbridge,Youth,Both,Wood's Homes - Stabilization Units,8,Logement de transition,AB,Jeunes,Mixtes
+Transitional,QC,Quebec City,Youth,Both,Piolet (Le),32,Logement de transition,QC,Jeunes,Mixtes
+Transitional,BC,Vancouver,General,Both,Place of Refuge,60,Logement de transition,C.-B.,Général,Mixtes
+Transitional,BC,Vancouver,General,Both,Princess Rooms Transitional Housing,42,Logement de transition,C.-B.,Général,Mixtes
+Transitional,QC,Quebec City,General,Both,Programme d'encadrement clinique et d'hébergement (P.E.C.H.),16,Logement de transition,QC,Général,Mixtes
+Emergency,QC,Quebec City,General,Females,Projet L.U.N.E.,5,Refuge d'urgence,QC,Général,Femmes
+Transitional,QC,Montreal,General,Males,OBM - Marcel et Jean Coutu Pavillion,30,Logement de transition,QC,Général,Hommes
+Transitional,QC,Montreal,General,Females,OBM - PMP Lise Watier,29,Logement de transition,QC,Général,Femmes
+Transitional,ON,Oakville,Family,Both,ReStart Halton,45,Logement de transition,ON,Familles,Mixtes
+Emergency,BC,Prince George,Youth,Both,Reconnect Youth Services,10,Refuge d'urgence,C.-B.,Jeunes,Mixtes
+Transitional,QC,Lévis,Youth,Both,Refuge Roger Cantin,6,Logement de transition,QC,Jeunes,Mixtes
+Transitional,QC,Montreal,General,Males,OBM - Webster Sentinelles,9,Logement de transition,QC,Général,Hommes
+Transitional,ON,Brantford,Youth,Males,Renwick House,5,Logement de transition,ON,Jeunes,Hommes
+Transitional,ON,Windsor,Youth,Females,Residential Program,12,Logement de transition,ON,Jeunes,Femmes
+Transitional,NB,Moncton,Youth,Both,Residential Programs,8,Logement de transition,N.-B.,Jeunes,Mixtes
+Transitional,QC,Montreal,General,Both,PAS de la rue,8,Logement de transition,QC,Général,Mixtes
+Transitional,QC,Montreal,General,Females,"Passages, Ressource d'Hébergement de Montréal - séjours prologées",4,Logement de transition,QC,Général,Femmes
+Emergency,ON,Sarnia,General,Males,River City Sanctuary,21,Refuge d'urgence,ON,Général,Hommes
+Emergency,QC,Joliette,Youth,Both,Roland-Gauvreau,12,Refuge d'urgence,QC,Jeunes,Mixtes
+Transitional,QC,Saint-Georges,General,Both,Rond-Point,7,Logement de transition,QC,Général,Mixtes
+Emergency,ON,Brantford,General,Both,Rosewood House,15,Refuge d'urgence,ON,Général,Mixtes
+Emergency,ON,London,Family,Both,Rotholme Women's and Family Shelter,41,Refuge d'urgence,ON,Familles,Mixtes
+Transitional,BC,Colwood,General,Both,Royal Canadian Legion - Cockrell House,11,Logement de transition,C.-B.,Général,Mixtes
+Emergency,BC,Chilliwack,General,Both,Ruth and Naomi’s Night Shelter,15,Refuge d'urgence,C.-B.,Général,Mixtes
+Transitional,QC,Drummondville,General,Both,Réseau d'aide le Tremplin,9,Logement de transition,QC,Général,Mixtes
+Emergency,ON,Ottawa,General,Both,SGH – Rapid Housing & Employment Program,18,Refuge d'urgence,ON,Général,Mixtes
+Transitional,QC,Lévis,General,Both,SRIC - Maison Hauts-Bois,9,Logement de transition,QC,Général,Mixtes
+Transitional,QC,Lévis,General,Both,SRIC - Maison sous les arbres,9,Logement de transition,QC,Général,Mixtes
+Emergency,SK,Saskatoon,Youth,Both,STC Urban Safe House,5,Refuge d'urgence,SK,Jeunes,Mixtes
+Transitional,AB,Lethbridge ,General,Both,LEARN Stabilization Units,Available as needed,Logement de transition,AB,Aînés,Mixtes
+Transitional,ON,Brantford,Youth,Females,Sally Laidlaw House,8,Logement de transition,ON,Jeunes,Femmes
+Emergency,AB,Lloydminster,General,Males,Lloydminster Men's Shelter,27,Refuge d'urgence,AB,Général,Hommes
+Emergency,ON,Woodstock,Family,Both,Salvation Army - Family Emergency House,10,Refuge d'urgence,ON,Familles,Mixtes
+Emergency,AB,Medicine Hat,General,Both,Family Support Centre,30,Refuge d'urgence,AB,Général,Mixtes
+Transitional,ON,Sudbury,General,Males,Salvation army transitional beds,11,Logement de transition,ON,Général,Hommes
+Transitional,ON,Toronto,General,Males,Scarborough Village Residence,88,Logement de transition,ON,Général,Hommes
+Transitional,QC,Montreal,General,Both,Projets Autochtones du Quebec: Logement de transition,16,Logement de transition,QC,Général,Mixtes
+Emergency,AB,Medicine Hat,Youth,Both,Mcman - Inn Between Youth Shelter,6,Refuge d'urgence,AB,Jeunes,Mixtes
+Transitional,ON,Midland,Family,Both,Shelter Now - Hartog House,22,Logement de transition,ON,Familles,Mixtes
+Transitional,ON,Stratford,Youth,Both,Shelterlink,14,Logement de transition,ON,Jeunes,Mixtes
+Transitional,ON,Burlington,General,Females,Shirfa Home Inc.,6,Logement de transition,ON,Général,Femmes
+Emergency,NU,Iqaluit,General,Females,Sivummut House,12,Refuge d'urgence,NU,Général,Femmes
+Emergency,ON,St. Catharines,General,Both,Southridge Community Church Emergency Shelter,55,Refuge d'urgence,ON,Général,Mixtes
+Transitional,QC,Quebec City,Youth,Both,Squat Basse-Ville - transitional,17,Logement de transition,QC,Jeunes,Mixtes
+Emergency,QC,Quebec City,Youth,Both,Squat Basse-Ville - urgence,10,Refuge d'urgence,QC,Jeunes,Mixtes
+Transitional,ON,Toronto,General,Females,St. Clare Inn,5,Logement de transition,ON,Général,Femmes
+Transitional,AB,Medicine Hat,Family,Both,Miywasin Society House,5,Logement de transition,AB,Familles,Mixtes
+Transitional,ON,Oakville,General,Females,Stabilizing First,15,Logement de transition,ON,Général,Femmes
+Transitional,ON,Oakville,General,Both,Salvation Army - Step Up,6,Logement de transition,ON,Général,Mixtes
+Transitional,AB,Mission,General,Females,Penny’s Place,6,Logement de transition,BC,Général,Femmes
+Emergency,AB,Red Deer,General,Both,Mustard Seed People's Place,46,Refuge d'urgence,AB,Général,Mixtes
+Transitional,ON,Welland,General,Both,Supported Transitional Housing,20,Logement de transition,ON,Général,Mixtes
+Transitional,ON,Windsor,Youth,Both,Supportive Apartment Living Transition Program (SALT),15,Logement de transition,ON,Jeunes,Mixtes
+Emergency,QC,La Pocatière,Youth,Both,Tandem-Jeunesse,9,Refuge d'urgence,QC,Jeunes,Mixtes
+Transitional,ON,Ottawa,Youth,Females,Tewegan Transition House,12,Logement de transition,ON,Jeunes,Femmes
+Transitional,BC,Vancouver,General,Both,The Billy,59,Logement de transition,C.-B.,Général,Mixtes
+Transitional,BC,Kamloops,General,Both,The Branch,36,Logement de transition,C.-B.,Général,Mixtes
+Emergency,QC,Montreal,Youth,Males,Refuge des jeunes de Montréal,45,Refuge d'urgence,QC,Jeunes,Hommes
+Transitional,BC,Maple Ridge,General,Both,The Caring Place - Genesis Program,12,Logement de transition,C.-B.,Général,Mixtes
+Emergency,ON,Timmins,General,Males,The Good Samaritan Inn,14,Refuge d'urgence,ON,Général,Hommes
+Emergency,ON,Sarnia,Youth,Both,The Haven,9,Refuge d'urgence,ON,Jeunes,Mixtes
+Emergency,BC,Hope,General,Both,The House of Hope,20,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,ON,Woodstock,General,Both,The Inn,18,Refuge d'urgence,ON,Général,Mixtes
+Emergency,SK,North Battleford,General,Both,The Lighthouse North Battleford ,34,Refuge d'urgence,SK,Général,Mixtes
+Emergency,AB,Red Deer,General,Both,CASHS Mat program,20,Refuge d'urgence,AB,Général,Mixtes
+Emergency,ON,St. Catharines,Youth,Both,The RAFT,12,Refuge d'urgence,ON,Jeunes,Mixtes
+Transitional,AB,Red Deer,General,Both,CASHS Detox,20,Logement de transition,AB,Général,Mixtes
+Transitional,ON,Orangeville,General,Both,The Salvation Army New Hope Community Church,2,Logement de transition,ON,Général,Mixtes
+Emergency,ON,Windsor,General,Both,The Sanctuary,103,Refuge d'urgence,ON,Général,Mixtes
+Transitional,BC,Vancouver,General,Females,The Vivian,24,Logement de transition,C.-B.,Général,Femmes
+Emergency,MB,Steinbach,General,Both,Today House,4,Refuge d'urgence,MB,Général,Mixtes
+Emergency,YT,Dawson City,General,Males,Tr'ondëk Hwëch'in Men's shelter,3,Refuge d'urgence,YT,Général,Hommes
+Transitional,YT,Dawson City,General,Males,Tr'ondëk Hwëch'in Transitional Housing,2,Logement de transition,YT,Général,Hommes
+Emergency,QC,Sept-Îles,General,Both,Transit Sept-Iles,12,Refuge d'urgence,QC,Général,Mixtes
+Emergency,ON,Cobourg,General,Both,Transition House Emergency Shelter,22,Refuge d'urgence,ON,Général,Mixtes
+Transitional,QC,Granby,General,Females,Transition pour elles inc.,8,Logement de transition,QC,Général,Femmes
+Transitional,ON,Brantford,General,Both,Transitional Home Project,18,Logement de transition,ON,Général,Mixtes
+Transitional,ON,Sarnia,General,Both,Transitional Housing Program,29,Logement de transition,ON,Général,Mixtes
+Emergency,BC,Vancouver,General,Males,Union Gospel Mission - Emergency,82,Refuge d'urgence,C.-B.,Général,Hommes
+Transitional,BC,Vancouver,General,Males,Union Gospel Mission,8,Logement de transition,C.-B.,Général,Hommes
+Transitional,ON,London,General,Both,Unity Project for the Relief of Homelessness - Transitional,9,Logement de transition,ON,Général,Mixtes
+Emergency,ON,London,General,Both,Unity Project for the Relief of Homelessness,37,Refuge d'urgence,ON,Général,Mixtes
+Emergency,BC,Sechelt,General,Both,Upper Deck Hostel - Wharf Ave,19,Refuge d'urgence,C.-B.,Général,Mixtes
+Emergency,AB,Red Deer,Youth,Both,49th Street Youth Shelter,12,Refuge d'urgence,AB,Jeunes,Mixtes
+Transitional,ON,Sudbury,General,Both,Victoria Place,6,Logement de transition,ON,Général,Mixtes
+Transitional,QC,Magog,General,Females,Villa Pierrot,51,Logement de transition,QC,Général,Femmes
+Emergency,BC,Vancouver,Youth,Both,Walden Safe House,9,Refuge d'urgence,C.-B.,Jeunes,Mixtes
+Transitional,AB,Red Deer,Youth,Both,Arcadia,4,Logement de transition,AB,Jeunes,Mixtes
+Transitional,QC,Montreal,Youth,Both,Service d'hébergement St-Denis,9,Logement de transition,QC,Jeunes,Mixtes
+Emergency,AB,Standoff,General,Both,Moses Lake Shelter,25,Refuge d'urgence,AB,Général,Mixtes
+Transitional,SK,Prince Albert,General,Both,YWCA - Transitional Services,44,Logement de transition,SK,Général,Mixtes
+Emergency,SK,Prince Albert,General,Females,YWCA Central Avenue Residential Services,50,Refuge d'urgence,SK,Général,Femmes
+Transitional,ON,Fort Erie,General,Both,YWCA Off-Site Transitional Housing - Fort Erie,11,Logement de transition,ON,Général,Mixtes
+Transitional,ON,Niagara Falls,General,Both,YWCA Off-Site Transitional Housing - Niagara Falls,9,Logement de transition,ON,Général,Mixtes
+Transitional,ON,St. Catharines,General,Both,YWCA Off-Site Transitional Housing - St Catharines,7,Logement de transition,ON,Général,Mixtes
+Transitional,ON,Welland,General,Both,YWCA Off-Site Transitional Housing - Welland,11,Logement de transition,ON,Général,Mixtes
+Transitional,ON,West Niagara,General,Both,YWCA Off-Site Transitional Housing - West Niagara,25,Logement de transition,ON,Général,Mixtes
+Transitional,ON,St. Catharines,General,Females,YWCA On-Site Transitional Housing - Court Street,17,Logement de transition,ON,Général,Femmes
+Transitional,ON,Niagara Falls,General,Females,YWCA On-Site Transitional Housing - Niagara Falls,6,Logement de transition,ON,Général,Femmes
+Transitional,ON,St. Catharines,General,Females,YWCA On-Site Transitional Housing - St Catharines,5,Logement de transition,ON,Général,Femmes
+Emergency,SK,Regina,General,Females,YWCA Regina Kikinaw Residence - Emergency,5,Refuge d'urgence,SK,Général,Femmes
+Transitional,ON,Hamilton,General,Females,YWCA Transitional Housing for Women,65,Logement de transition,ON,Général,Femmes
+Emergency,ON,Niagara Falls,General,Females,YWCA Women's Shelter - Niagara Falls,20,Refuge d'urgence,ON,Général,Femmes
+Emergency,QC,Quebec City,General,Females,YWCA de Québec - urgence,17,Refuge d'urgence,QC,Général,Femmes
+Transitional,QC,Quebec City,General,Females,YWCA de Québec,45,Logement de transition,QC,Général,Femmes
+Transitional,NT,Yellowknife ,General,Females,Yellowknife Women's Centre,24,Logement de transition,T.N.-O.,Général,Femmes
+Emergency,AB,Strathmore,General,Both,Strathmore Overnight Shelter,10,Refuge d'urgence,AB,Général,Mixtes
+Emergency,AB,Whitecourt,General,Males,Lorne's Blanket,5,Refuge d'urgence,AB,Général,Hommes
+Transitional,ON,Kingston,Youth,Both,Youth Net Program,13,Logement de transition,ON,Jeunes,Mixtes
+Emergency,ON,Brantford,Youth,Both,Youth Resource Centre,20,Refuge d'urgence,ON,Jeunes,Mixtes
+Transitional,ON,Kingston,Youth,Both,Youth Services-Journey House,5,Logement de transition,ON,Jeunes,Mixtes
+Transitional,ON,Kingston,Youth,Both,Youth Services-Sutherland,3,Logement de transition,ON,Jeunes,Mixtes
+Emergency,BC,Kamloops,Youth,Both,Youth Street Services,4,Refuge d'urgence,C.-B.,Jeunes,Mixtes
+Emergency,ON,Toronto,Youth,Both,YouthLink Emergency Program,10,Refuge d'urgence,ON,Jeunes,Mixtes
+Transitional,ON,Toronto,Youth,Both,YouthLink Transitional Program,40,Logement de transition,ON,Jeunes,Mixtes
+Emergency,QC,Chateauguay,Youth,Both,Élan des jeunes (L'),6,Refuge d'urgence,QC,Jeunes,Mixtes
+Transitional,AB,Rocky Mountain House,Family,Both,Family Emergency Apartment - Mountain Rose,3,Logement de transition,AB,Familles,Mixtes

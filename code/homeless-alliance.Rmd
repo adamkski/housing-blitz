@@ -1,0 +1,19 @@
+---
+title: "Alliance to End Homelessness"
+author: "Adam Kowalczewski"
+date: "09/07/2020"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(here)
+
+services <- read_csv(here("data/FINAL_CHPDOpenDataNSPL_Dataset-2019_June7_2020.csv"), col_names = F)
+
+services %>% 
+  slice(1) %>% 
+  unlist
+```
+
+There's some very basic information on service providers... 817 of them.
